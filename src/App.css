@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  font-family: "Kanit", system-ui;
+  background-color: #31363F;
+  color: #EEEEEE;
+  margin: 0;
+}
+
+#main{
+  background-color: #222831;
+  padding: 50px 0;
+  margin: 10vh 10vw;
+  border-radius: 24px;
+  box-shadow: 0px 0px 75px 12px rgba(167, 167, 167, 0.1), -5px 0px 75px -42px rgba(0,0,0,0.9) inset;
+} 
+
+#title{
+  text-align: center;
+  font-size: 3rem;
+}
+
+#title p{
+  display: inline-block;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+#title img{
+  width: 80px;
+  margin-left: 20px;
+}
+
+#buttons-container{
+  background-color: #31363F;
+  width: 50%;
+  margin: auto;
+  border: rgba(238, 238, 238, 0.6) 2px solid;
+  border-radius: 10px;
+}
+
+#buttons-container p{
+  font-size: 1.4rem;
+  margin: 0;
+  border-bottom: 2px rgba(255, 255, 255, 0.5) solid;
+  padding: 5px 0;
+  text-align: center;
+  transition: 0.4s;
+}
+
+#buttons-container p:hover{
+  background-color: rgba(255, 255, 255, 0.866);
+  color: #31363F;
+  cursor: pointer;
+}
+
+.divider p{
+  border-bottom: rgba(255, 255, 255, 0.8) 2px solid;
+  width: 80%;
+  margin: 40px auto;
+}
+
+#answer-box{
+  width: 70%;
+  margin: auto;
+}
+
+#answer-box{
+  background-color: #16181c;
+  border: 2px solid rgba(255, 255, 255, 0.467);
+  border-radius: 10px;
+  min-height: 300px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+#answer-box p{
+  margin: 15px;
+  font-size: 1.5rem;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+.yellow{
+  color: rgb(255, 255, 132);
+  font-style: italic;
+}
+
+.green{
+  color: rgb(117, 166, 109);
+}
+
+.brown{
+  color: rgb(184, 71, 71);
+}
+
+.yellow-side{
+  font-size: 1rem;
+  font-style: oblique;
+  color: gold;
+}
+
+.class{
+  margin-bottom: 20px;
+}
+
+.version{
+  color: white;
+  opacity: .3;
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+}
+
+
+/* ################    FOOTER     ##################### */
+
+footer{
+  background-color: black;
+  color: white;
+  padding: 25px 50px;
+  margin-top: 70px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px -15px 36px 0px rgba(0, 0, 0, 0.4);
+}
+
+.left-side .top{
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.left-side .name-yellow{
+  color: rgb(240, 240, 78);
+  font-size: 2rem;
+  margin: 0;
+  font-family: "Kanit", sans-serif;
+  display: inline-block;
+}
+
+.left-side .name-white{
+  font-size: 2rem;
+  margin: 0;
+  font-family: "Kanit", sans-serif;
+  display: inline-block;
+}
+
+.left-side .copy{
+  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0 5px 5px 0;
+}
+
+.right-side{
+  font-family: "Kanit", sans-serif;
+  color: white;
+}
+
+.right-side a{
+  text-decoration: none;
+  color: rgb(201, 201, 201);
+  font-size: 1.2rem;
+  margin: 0px 15px;
+  transition: .2s;
+}
+
+.right-side a:hover{
+  opacity: 0.5;
+  color: rgb(203, 203, 75);
+}
+
+.right-side p{
+  color: hsl(191, 92%, 68%);
+  font-size: 1.5rem;
+  margin: 0px 15px;
+  transition: .2s;
+  display: inline-block;
+  margin: 0 0 0 5px;
+  text-shadow: 0px 0px 40px rgba(255, 255, 255, .5);
+}
+
+.right-side img{
+  width: 22px;
+  margin: 0 4px 0 25px;
+  animation: App-logo-spin infinite 5s linear;
+  background: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  #main{
+    margin: 7vh 5vw;
+    padding: 20px 0;
+  }
+
+  #title{
+    font-size: 2rem;
+    }
+
+  #title img{
+    width: 50px;
+  }
+
+  #buttons-container{
+    width: 75%;
+  }
+
+  #buttons-container p{
+    font-size: 1.2rem;
+  }
+
+  #answer-box p{
+    margin: 15px;
+    font-size: 1.3rem;
+  }
+
+  
+    /*      FOOT Mobile         */
+    footer{
+      padding: 30px;
+  }
+  
+  .left-side .top{
+      font-size: 1rem;
+      margin: 0;
+  }
+  
+  .left-side .name-yellow{
+      color: rgb(240, 240, 78);
+      font-size: 1.5rem;
+      margin: 0;
+      font-family: "Kanit", sans-serif;
+      display: inline-block;
+  }
+  
+  .left-side .name-white{
+      font-size: 1.5rem;
+      margin: 0;
+      font-family: "Kanit", sans-serif;
+      display: inline-block;
+  }
+  
+  .left-side .copy{
+      font-size: 1.5rem;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0 5px 5px 0;
+  }
+  
+  .right-side{
+      font-family: "Kanit", sans-serif;
+      color: white;
+  }
+  
+  .right-side a{
+      color: rgb(201, 201, 201);
+      font-size: 1rem;
+      margin: 0px 15px;
+      transition: .2s;
+  }
+
+  .right-side .emit-mobile{
+      display: none;
+  }
+  
+  .right-side a:hover{
+      opacity: 0.5;
+      color: rgb(203, 203, 75);
+  }
+
+  .right-side img{
+      margin-left: 10px;
+  }
+
+  .right-side span{
+      display: none;
+  }
+
+}
+
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
