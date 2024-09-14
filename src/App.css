@@ -104,6 +104,11 @@ body{
   margin-bottom: 20px;
 }
 
+.async{
+  font-size: 1.2rem;
+  color: rgb(120, 197, 255);
+}
+
 .version{
   color: white;
   opacity: .3;
