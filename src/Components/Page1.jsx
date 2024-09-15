@@ -7,7 +7,9 @@ function Page1(){
     const dayName = daysOfWeek[dayIndex];
 
     const textToCopy = "09051315374";
-
+    const [displayToggle, setDisplayToggle]= useState({
+        display: "none",
+    });
     const copyToClipboard = () => {
         navigator.clipboard.writeText(textToCopy).then(() => {
           alert("Text copied to clipboard!");
@@ -60,21 +62,36 @@ function Page1(){
 
     function showAnswer1(){
         setHandleAnswer(prevState => (classToday));
-        console.log( classes[dayIndex]);
+        setDisplayToggle(prevState => ({
+            ...prevState,
+            display: "none",
+        }))
     }
 
     function showAnswer2(){
         setHandleAnswer(prevState => (Tasks));
+        setDisplayToggle(prevState => ({
+            ...prevState,
+            display: "none",
+        }))
     }
 
     function showAnswer3(){
         setHandleAnswer(prevState => (toPay));
+        setDisplayToggle(prevState => ({
+            ...prevState,
+            display: "none",
+        }))
     }
 
 
     function showAnswer4(){
         setHandleAnswer(prevState => (classes[(dayIndex + 1)]));
-        console.log(dayIndex + 1)
+        setDisplayToggle(prevState => ({
+            ...prevState,
+            display: "block",
+        }))
+        
     }
 
 
@@ -102,7 +119,8 @@ function Page1(){
             </div>
 
             <div id="answer-box">
-                <p>Today is {dayName}!</p>
+                <p className='right'>Today is {dayName}!</p>
+                <p style={displayToggle}>Class Tomorrow:</p>
                 {handleAnswer}
             </div>
             

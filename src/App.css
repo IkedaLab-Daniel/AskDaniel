@@ -121,6 +121,11 @@ body{
   text-decoration: underline;
 }
 
+.right{
+  text-align: right;
+  font-style: italic;
+}
+
 
 /* ################    FOOTER     ##################### */
 
