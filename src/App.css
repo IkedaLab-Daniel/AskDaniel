@@ -150,6 +150,8 @@ li:hover{
   padding: 5px 15px;
   border-radius: 14px;
   transition: .6s;
+
+  animation: fadeIn 2s forwards;
 }
  
 #files a:hover{
