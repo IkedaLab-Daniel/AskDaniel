@@ -120,7 +120,7 @@ function Page1(){
     const about = <div id='about'>
         <p>This is an open-source project. If you want to contribute/add feature:</p>
         <ol>
-            <li>Visit GitHub repo and Fork <a href="https://drive.google.com/drive/folders/1Ynae4_MBdEJbPa9B6AKo4X_V-pqcvk3I?usp=drive_link" target="_blank" rel="noopener noreferrer">Here</a></li>
+            <li>Visit GitHub repo and Fork <a href="https://github.com/IkedaLab-Daniel/AskDaniel" target="_blank" rel="noopener noreferrer">Here</a></li>
             <li>In VSCODE, clone your folk</li>
             <li>Set original repo as an upstream remote</li>
             <li>Create new branch</li>
