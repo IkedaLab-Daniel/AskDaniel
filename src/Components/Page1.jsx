@@ -15,7 +15,7 @@ function Page1(){
     });
     const copyToClipboard = () => {
         navigator.clipboard.writeText(textToCopy).then(() => {
-          alert("Text copied to clipboard!");
+          alert("Copied na! Sana magbayad ka na huhu...");
         }).catch((err) => {
           console.error("Failed to copy text: ", err);
         });
@@ -50,7 +50,7 @@ function Page1(){
                 📌 CISCO netacad Assignment <span className='yellow-side'>Deadline: Sep.20</span>  <br/><br/>
                 📌 Art Appreciation Word Hunt - Module 1 <span className='yellow-side'>Deadline: Sep.19 [8PM]</span> <br/><br/>
                 📌 Web Programming - Assignment 3 <span className='yellow-side'>Deadline: Sep.19 [5PM]</span> <br/><br/>
-                📌 PE3 Index Card <span className='yellow-side'>Bring on: Sep.20</span>
+                📌 PE3 Index Card <span className='yellow-side'>Bring on: Sep.20</span> <br/><br/>
                 📌 USELF SAS 2 <span className='yellow-side'>Deadline: Sep.25 [12NN]</span>  <br/><br/>
                 </p>
 
