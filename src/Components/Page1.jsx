@@ -29,7 +29,8 @@ function Page1(){
         <p key={5}  className='class'>👨‍🏫 Accounting 3:00pm - 6:00pm  <span className='yellow-side'>Online</span></p>,
 
         <p key={6}  className='class'>
-            👨‍🏫Database 8:00am - 11:00am <span className='yellow-side'>F2F @ Red Lab</span> <br/>
+            <span>👨‍🏫Database 8:00am - 11:00am </span>
+            <span className='line-t'>F2F @ Red Lab </span><span className="yellow-side">Online @ 8AM</span> <br/>
             👨‍🏫Science 6:00pm - 9:00pm <span className='yellow-side'>Online</span>  <br/><br/>
             <span className='async'>📚 Asyncronous: Understanding the Self</span>
             </p>,
