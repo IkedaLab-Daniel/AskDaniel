@@ -105,10 +105,18 @@ function Page1(){
 
     function showAnswerFiles(){
         setHandleAnswer(prevState => (files));
+        setDisplayToggle(prevState => ({
+            ...prevState,
+            display: "none",
+        }))
     }
 
     function showAnswerAbout(){
         setHandleAnswer(prevState => (about));
+        setDisplayToggle(prevState => ({
+            ...prevState,
+            display: "none"
+        }))
     }
 
     const files = <div id='files'>
