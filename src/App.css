@@ -182,14 +182,80 @@ li:hover{
   font-style: oblique;
 }
 
+.breaker{
+  display: block;
+  width: 100%;
+  border-bottom: 2px white solid;
+}
+
+#modal {
+  color: rgb(59, 59, 59);
+  width: 80%;
+  background-color: rgba(238, 238, 238, 0.942);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border-radius: 15px;
+  animation: fadeIn 1s forwards
+}
+
+#modal h2{
+  text-align: center;
+}
+#modal p{
+  margin: 10px 20px;
+}
+
+#modal img{
+  width: 50%;
+  border-radius: 14px;
+  margin-left: 25%;
+}
+
+#black-shade{
+  background-color: rgba(0, 0, 0, 0.431);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  transform: translate(0%, -7%);
+  animation: fadeIn 1s forwards
+}
+
+.close{
+  transition: .3s;
+}
+
+.close:hover{
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container p{
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.button-container .green{
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
 
 /* ################    FOOTER     ##################### */
 
 footer{
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: white;
   padding: 25px 50px;
   margin-top: 70px;
+  border-radius: 14px 14px 0px 0px;
 
   display: flex;
   justify-content: space-between;
@@ -364,6 +430,15 @@ footer{
   }
   100%{
     opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  100%{
+    opacity: 1;
+  }
+  0%{
+    opacity: 0;
   }
 }
 

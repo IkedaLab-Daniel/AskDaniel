@@ -1,6 +1,4 @@
 import React, {useEffect, useState} from 'react'
-
-
 /* Sorry, 1 component lang 'to kahit naka react. Di ko kasi expect na lalaki siya hihi */
 function Page1(){
 
@@ -10,6 +8,9 @@ function Page1(){
     const dayName = daysOfWeek[dayIndex];
 
     const textToCopy = "09051315374";
+    const [toogleModal, setToggleModal] = useState({
+        display: "fixed",
+    })
     const [displayToggle, setDisplayToggle]= useState({
         display: "none",
     });
@@ -35,7 +36,7 @@ function Page1(){
             <span className='async'>📚 Asyncronous: Understanding the Self</span>
             </p>,
 
-        <p key={7}  className='class'>👨‍🏫Data Structure 12:00pm - 3:00pm <span className='yellow-side'>F2F @ iLab</span> <br/><br/>
+        <p key={7}  className='class'>👨‍🏫Data Structure 12:00pm - 3:00pm <span className='line-t'>F2F @ iLab </span><span className='yellow-side'> Online</span> <br/><br/>
             <span className='async'>📚 Asyncronous: Art Appreciation, CISCO</span>
         </p>,
 
@@ -46,13 +47,19 @@ function Page1(){
         <p key={3} className='class'>❤️ No Class</p>,
     ];
 
-    const Tasks = <p key="1">📌 CISCO netacad Module 1-2 <span className='yellow-side'>Self-paced</span>  <br/><br/>
-                📌 CISCO netacad Badge <span className='yellow-side'>Self-paced</span>  <br/><br/>
-                📌 CISCO netacad Assignment <span className='yellow-side'>Deadline: Sep.20</span>  <br/><br/>
-                📌 Art Appreciation Word Hunt - Module 1 <span className='yellow-side'>Deadline: Sep.19 [8PM]</span> <br/><br/>
-                📌 Web Programming - Assignment 3 <span className='yellow-side'>Deadline: Sep.19 [5PM]</span> <br/><br/>
-                📌 PE3 Index Card <span className='yellow-side'>Bring on: Sep.20</span> <br/><br/>
-                📌 USELF SAS 2 <span className='yellow-side'>Deadline: Sep.25 [12NN]</span>  <br/><br/>
+    const Tasks = <p key="1">
+                <span className='yellow-side'>Self-paced</span> <span className='breaker'></span>
+                📌 CISCO netacad IT Essentials 8 <br/>
+                📌 CISCO netacad Badge <br/><br/>
+                <span className='yellow-side'>September 19 - Thursday</span> <span className='breaker'></span>
+                📌 Art Appreciation Word Hunt - Module 1 <span className='yellow-side'>[6PM]</span> <br/>
+                📌 Web Programming - Assignment 3 <span className='yellow-side'>[5PM]</span> <br/><br/>
+                <span className='yellow-side'>September 20 - Friday</span> <span className='breaker'></span>
+                📌 CISCO netacad Assignment  <br/>
+                📌 PE3 Index Card  <br/><br/>
+                <span className='yellow-side'>September 25 - Wednesday</span> <span className='breaker'></span>
+                📌 USELF SAS 2 <span className='yellow-side'>[12NN]</span>  <br/>
+                📌 DBSYS Presentation <br/><br/>                
                 </p>
 
     const toPay = <p key="2">📌 IBCE Student Activity Fee:<br/> ₱150 <span className='yellow-side'>DUE Sep.18</span> <br/><br/>
@@ -63,7 +70,13 @@ function Page1(){
                     (J**R C***S)<br/>
                     <br/>
                     Cash - See Ice during F2F class</p>
+    const anouncement = <p>
+        Sa mga hindi pa nakapag-bayad ng IBCE Student Activity Fee (₱150), last chance niyo na po hanggang September 20!<br/><br/>
+        Possible to affected:<br/>
+        <span style={{color: "red"}}>Clearance - Dean</span><br/>
+        <span style={{color: "red"}}>Clearance - Collection Office</span><br/>
 
+    </p>
 
 
 
@@ -120,6 +133,29 @@ function Page1(){
         }))
     }
 
+    function showAnswerAnnounce(){
+        setToggleModal(prevState => ({
+            ...prevState,
+            display: "block",
+        }))
+        setDisplayToggle(prevState => ({
+            ...prevState,
+            display: "none"
+        }))
+    }
+
+    function toggleOffModal(){
+        setToggleModal(prevState => ({
+            ...prevState,
+            display: "none",
+        }))
+    }
+
+    function handlePay(){
+        toggleOffModal();
+        showAnswer3();
+    }
+
     const files = <div id='files'>
         <a href="https://drive.google.com/drive/folders/1Ynae4_MBdEJbPa9B6AKo4X_V-pqcvk3I?usp=drive_link" target="_blank" rel="noopener noreferrer">
         📁 Open Google Drive
@@ -144,6 +180,9 @@ function Page1(){
 
     return(
         <>
+        <div id="black-shade" style={toogleModal}>
+
+        </div>
         <div id="main">
             <div id="title">
                 <p><span className='yellow'>info</span>.<span className='brown'>IT</span>
@@ -161,6 +200,7 @@ function Page1(){
                 <p onClick={showAnswer3}>💸 Ano mga binabayaran?</p>
                 <p onClick={showAnswerFiles}>📁 Files</p>
                 <p onClick={showAnswerAbout}> 💡 About</p>
+                <p onClick={showAnswerAnnounce}> 🚨 Announcement</p>
             </div>
 
             <div className="divider">
@@ -171,6 +211,17 @@ function Page1(){
                 <p className='right'>Today is {dayName}!</p>
                 <p style={displayToggle}>Class Tomorrow:</p>
                 {handleAnswer}
+            </div>
+
+            <div id="modal" style={toogleModal}>
+                <h2>🚨 Anouncement 🚨</h2>
+                {anouncement}
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-r89WqkOt80jbX5mELpcFlKvCbVUvLSx7Tw&s" alt="" />
+                <div className="button-container">
+                    <p className='close' onClick={toggleOffModal}>Close</p>
+                    <p className='green' onClick={handlePay}>Pay Now</p>
+                </div>
+                
             </div>
             
         </div>
