@@ -190,6 +190,7 @@ li:hover{
 
 #modal {
   color: rgb(59, 59, 59);
+  max-width: 500px;
   width: 80%;
   background-color: rgba(238, 238, 238, 0.942);
   position: fixed;
@@ -217,9 +218,9 @@ li:hover{
 #black-shade{
   background-color: rgba(0, 0, 0, 0.431);
   width: 100vw;
-  height: 100vh;
+  height: 150vh;
   position: fixed;
-  transform: translate(0%, -7%);
+  transform: translate(0%, -15%);
   animation: fadeIn 1s forwards
 }
 
@@ -245,8 +246,13 @@ li:hover{
 .button-container .green{
   display: inline-block;
   font-size: 1.5rem;
+  transition: .5s;
 }
 
+.button-container .green:hover{
+  cursor: pointer;
+  font-weight: bold;
+}
 
 /* ################    FOOTER     ##################### */
 

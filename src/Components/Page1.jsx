@@ -63,7 +63,7 @@ function Page1(){
                 </p>
 
     const toPay = <p key="2">📌 IBCE Student Activity Fee:<br/> ₱150 <span className='yellow-side'>DUE Sep.18</span> <br/><br/>
-                    📌 SSITE Membership Fee: ₱200<br/><br/>
+                    📌 SSITE Membership Fee:<br/> ₱200<br/><br/>
                     💵 Pay on: <br/>
                     GCash - <span className="phone-num" onClick={copyToClipboard}>{textToCopy} </span><br/>
                     <span className='yellow-side'>Click number to copy</span><br/>
@@ -72,8 +72,8 @@ function Page1(){
                     Cash - See Ice during F2F class</p>
     const anouncement = <p>
         Sa mga hindi pa nakapag-bayad ng IBCE Student Activity Fee (₱150), last chance niyo na po hanggang September 20!<br/><br/>
-        Possible to affected:<br/>
-        <span style={{color: "red"}}>Clearance - Dean</span><br/>
+        Possible to be affected:<br/>
+        <span style={{color: "red"}}>Clearance - Dean's Office</span><br/>
         <span style={{color: "red"}}>Clearance - Collection Office</span><br/>
 
     </p>
