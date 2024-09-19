@@ -224,7 +224,7 @@ function Page1(){
 
 
             <div id="modal" style={toogleModal}>
-                <h2>🚨 Anouncement 🚨</h2>
+                <h2>🚨 Announcement 🚨</h2>
                 {anouncement}
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-r89WqkOt80jbX5mELpcFlKvCbVUvLSx7Tw&s" alt="" />
                 <div className="button-container">
