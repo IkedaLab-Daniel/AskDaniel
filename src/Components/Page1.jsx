@@ -1,5 +1,7 @@
 import React, {useEffect, useState} from 'react'
+import Tutorial from './Tutorial';
 /* Sorry, 1 component lang 'to kahit naka react. Di ko kasi expect na lalaki siya hihi */
+
 function Page1(){
 
     const today = new Date();
@@ -164,6 +166,8 @@ function Page1(){
     </div>
 
     const about = <div id='about'>
+      <Tutorial />
+      <hr style={{width: "90%"}}/>
         <p>This is an open-source project. If you want to contribute/add feature:</p>
         <ol>
             <li>Visit GitHub repo and Fork <a href="https://github.com/IkedaLab-Daniel/AskDaniel" target="_blank" rel="noopener noreferrer">Here</a></li>
@@ -176,11 +180,15 @@ function Page1(){
         </ol>
         <img src="https://media.tenor.com/1cJMF-Qh8-wAAAAM/cat-smile.gif" alt="" />
         <p className='right'>Always smile, thank you!</p>
+        <hr style={{width: "90%"}}/>
+        <p>Contributors:</p>
+        <p style={{fontSize : "1rem"}}>💻 Nivan</p>
     </div>
 
 
     return(
         <>
+        
         <div id="black-shade" style={toogleModal}>
 
         </div>
@@ -200,7 +208,7 @@ function Page1(){
                 <p onClick={showAnswer2}>📝 Ano mga ginagawa?</p>
                 <p onClick={showAnswer3}>💸 Ano mga binabayaran?</p>
                 <p onClick={showAnswerFiles}>📁 Files</p>
-                <p onClick={showAnswerAbout}> 💡 About</p>
+                <p onClick={showAnswerAbout}> 💡 About  <span className='yellow-side'>(New!)</span></p>
                 <p onClick={showAnswerAnnounce}> 🚨 Announcement</p>
             </div>
 
@@ -214,6 +222,7 @@ function Page1(){
                 {handleAnswer}
             </div>
 
+
             <div id="modal" style={toogleModal}>
                 <h2>🚨 Anouncement 🚨</h2>
                 {anouncement}
@@ -222,8 +231,8 @@ function Page1(){
                     <p className='close' onClick={toggleOffModal}>Close</p>
                     <p className='green' onClick={handlePay}>Pay Now</p>
                 </div>
-                
             </div>
+
             
         </div>
         </>

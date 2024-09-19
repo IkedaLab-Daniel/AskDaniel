@@ -254,6 +254,53 @@ li:hover{
   font-weight: bold;
 }
 
+.pages-container{
+  width: 100%;
+  text-align: center;
+}
+
+/* Generatives */
+.carousel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-image {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  animation: fadeIn 1s forwards;
+  margin-left: 0;
+}
+
+.prev-btn, .next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+.prev-btn:hover, .next-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+
 /* ################    FOOTER     ##################### */
 
 footer{
