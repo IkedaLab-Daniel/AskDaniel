@@ -52,14 +52,15 @@ function Page1(){
                 📌 CISCO netacad IT Essentials 8 <br/>
                 📌 CISCO netacad Badge <br/><br/>
                 <span className='yellow-side'>September 19 - Thursday</span> <span className='breaker'></span>
-                📌 Art Appreciation Word Hunt - Module 1 <span className='yellow-side'>[6PM]</span> <br/>
                 📌 Web Programming - Assignment 3 <span className='yellow-side'>[5PM]</span> <br/><br/>
                 <span className='yellow-side'>September 20 - Friday</span> <span className='breaker'></span>
                 📌 CISCO netacad Assignment  <br/>
                 📌 PE3 Index Card  <br/><br/>
                 <span className='yellow-side'>September 25 - Wednesday</span> <span className='breaker'></span>
                 📌 USELF SAS 2 <span className='yellow-side'>[12NN]</span>  <br/>
-                📌 DBSYS Presentation <br/><br/>                
+                📌 DBSYS Presentation <br/><br/> 
+                <span className='yellow-side'>Di ko alam... Basta may ginagawa dito</span> <span className='breaker'></span>
+                📌 Art Appreciation<br/>
                 </p>
 
     const toPay = <p key="2">📌 IBCE Student Activity Fee:<br/> ₱150 <span className='yellow-side'>DUE Sep.18</span> <br/><br/>
