@@ -51,21 +51,16 @@ function Page1(){
 
     const Tasks = <p key="1">
                 <span className='yellow-side'>Self-paced</span> <span className='breaker'></span>
-                📌 CISCO netacad IT Essentials 8 <br/>
-                📌 CISCO netacad Badge <br/><br/>
-                <span className='yellow-side'>September 19 - Thursday</span> <span className='breaker'></span>
-                📌 Web Programming - Assignment 3 <span className='yellow-side'>[5PM]</span> <br/><br/>
-                <span className='yellow-side'>September 20 - Friday</span> <span className='breaker'></span>
-                📌 CISCO netacad Assignment  <br/>
-                📌 PE3 Index Card  <br/><br/>
+                📌 CISCO netacad IT Essentials<br/>
+                📌 CISCO netacad Badge <span className='yellow-side'>Required for Midterm</span><br/><br/>
                 <span className='yellow-side'>September 25 - Wednesday</span> <span className='breaker'></span>
                 📌 USELF SAS 2 <span className='yellow-side'>[12NN]</span>  <br/>
                 📌 DBSYS Presentation <br/><br/> 
-                <span className='yellow-side'>Di ko alam... Basta may ginagawa dito</span> <span className='breaker'></span>
-                📌 Art Appreciation<br/>
+                <span className='yellow-side'>September 24 - Thursday</span> <span className='breaker'></span>
+                📌 Art Appreciation Module 2 <span className='yellow-side'>[6PM]</span><br/>
                 </p>
 
-    const toPay = <p key="2">📌 IBCE Student Activity Fee:<br/> ₱150 <span className='yellow-side'>DUE Sep.18</span> <br/><br/>
+    const toPay = <p key="2">📌 IBCE Student Activity Fee:<br/> ₱150 <span className='yellow-side'>DUE Sep.24</span> <br/><br/>
                     📌 SSITE Membership Fee:<br/> ₱200<br/><br/>
                     💵 Pay on: <br/>
                     GCash - <span className="phone-num" onClick={copyToClipboard}>{textToCopy} </span><br/>
@@ -74,7 +69,7 @@ function Page1(){
                     <br/>
                     Cash - See Ice during F2F class</p>
     const anouncement = <p>
-        Sa mga hindi pa nakapag-bayad ng IBCE Student Activity Fee (₱150), last chance niyo na po hanggang September 20!<br/><br/>
+        Sa mga hindi pa nakapag-bayad ng IBCE Student Activity Fee (₱150), <span style={{color: "red"}}>Deadlies deadline</span> is September 24 (Tuesday)! <br/><br/>
         Possible to be affected:<br/>
         <span style={{color: "red"}}>Clearance - Dean's Office</span><br/>
         <span style={{color: "red"}}>Clearance - Collection Office</span><br/>
