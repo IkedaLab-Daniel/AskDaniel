@@ -29,20 +29,20 @@ function Page1(){
         <p key={3} className='class'>❤️ No Class</p>,
         <p key={4}  className='class'>👨‍🏫 CISCO 9:00am - 12:00pm <span className='yellow-side'>F2F @ CISCO Lab / iLab</span><br/><br/><span className='async'>📚 Asyncronous: Database, Data Structure</span></p>,
 
-        <p key={5}  className='class'>👨‍🏫 Accounting 3:00pm - 6:00pm  <span className='yellow-side'>Online</span></p>,
+        <p key={5}  className='class'>👨‍🏫 Accounting 3:00pm - 6:00pm  <span className='yellow-side'>F2F @ MB205-206</span></p>,
 
         <p key={6}  className='class'>
             <span>👨‍🏫Database 8:00am - 11:00am </span>
-            <span className='line-t'>F2F @ Red Lab </span><span className="yellow-side">Online @ 8AM</span> <br/>
-            👨‍🏫Science 6:00pm - 9:00pm <span className='yellow-side'>Online</span>  <br/><br/>
+            <span className="yellow-side">F2F @ Red Lab</span> <br/>
+            👨‍🏫Science 6:00pm - 9:00pm <span className='yellow-side'>F2F @ MB207-208</span>  <br/><br/>
             <span className='async'>📚 Asyncronous: Understanding the Self</span>
             </p>,
 
-        <p key={7}  className='class'>👨‍🏫Data Structure 12:00pm - 3:00pm <span className='line-t'>F2F @ iLab </span><span className='yellow-side'> Online</span> <br/><br/>
+        <p key={7}  className='class'>👨‍🏫Data Structure 12:00pm - 3:00pm <span className='yellow-side'> F2F @ iLab </span> <br/><br/>
             <span className='async'>📚 Asyncronous: Art Appreciation, CISCO</span>
         </p>,
 
-        <p key={8}  className='class'>👨‍🏫PE3 10:00am - 12:00pm <span className='yellow-side'>F2F @ Gymnasium (Main)</span> <br/>
+        <p key={8}  className='class'>👨‍🏫PE3 10:00am - 12:00pm <span className='yellow-side'> Online</span> <br/>
             👨‍🏫Web Programming 2:00pm - 5:00pm <span className='yellow-side'>F2F @ iLab/CISCO Lab</span></p>,
 
         <p key={9}  className='class'>❤️ No Class<br/><br/><span className='async'>Asyncronous:<br/> WebProg 11AM - 1PM</span></p>,
@@ -73,7 +73,7 @@ function Page1(){
                     <br/>
                     Cash - See Ice during F2F class</p>
     const anouncement = <p>
-        Sa mga hindi pa nakapag-bayad ng IBCE Student Activity Fee (₱150), <span style={{color: "red"}}>Deadlies deadline</span> is September 24 (Tuesday)! <br/><br/>
+        Sa mga hindi pa nakapag-bayad ng IBCE Student Activity Fee (₱150), <span style={{color: "red"}}>Deadliest deadline</span> is September 24 (Tuesday)! <br/><br/>
         Possible to be affected:<br/>
         <span style={{color: "red"}}>Clearance - Dean's Office</span><br/>
         <span style={{color: "red"}}>Clearance - Collection Office</span><br/>
