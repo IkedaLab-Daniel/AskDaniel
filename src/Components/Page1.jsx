@@ -61,7 +61,11 @@ function Page1(){
                 <span className='yellow-side'>September 26 - Thursday</span> <span className='breaker'></span>
                 📌 Science Assessment 2 <span className='yellow-side'>[5PM]</span><br/>
                 📌 Art Appreciation Module 2 <span className='yellow-side'>[6PM]</span><br/>
-                📌 Web Prog Assignment 4 <span className='yellow-side'>[12MN]</span><br/>
+                📌 Web Prog Assignment 4 <span className='yellow-side'>[12MN]</span><br/><br/>
+                <span className='yellow-side'>September 27 - Friday</span> <span className='breaker'></span>
+                📌 PE3 Worksheet 3 <span className='yellow-side'>[5PM]</span><br/><br/>
+                <span className='yellow-side'>September 30 - Monday</span> <span className='breaker'></span>
+                📌 Netacad Module 4 Lab <span className='yellow-side'>[12MN]</span><br/>
                 </p>
 
     const toPay = <p key="2">📌 IBCE Student Activity Fee:<br/> ₱150 <span className='yellow-side'>DUE Sep.24</span> <br/><br/>
