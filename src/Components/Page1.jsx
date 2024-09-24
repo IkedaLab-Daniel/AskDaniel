@@ -33,8 +33,8 @@ function Page1(){
 
         <p key={6}  className='class'>
             <span>👨‍🏫Database 8:00am - 11:00am </span>
-            <span className="yellow-side">F2F @ Red Lab</span> <br/>
-            👨‍🏫Science 6:00pm - 9:00pm <span className='yellow-side'>F2F @ MB207-208</span>  <br/><br/>
+            <span className="yellow-side">Assync w/ activity</span> <br/>
+            👨‍🏫Science 6:00pm - 9:00pm <span className='yellow-side'>[?] F2F @ MB207-208</span>  <br/><br/>
             <span className='async'>📚 Asyncronous: Understanding the Self</span>
             </p>,
 
@@ -53,8 +53,6 @@ function Page1(){
                 <span className='yellow-side'>Self-paced</span> <span className='breaker'></span>
                 📌 CISCO netacad IT Essentials<br/>
                 📌 CISCO netacad Badge <span className='yellow-side'>[Required for Midterm]</span><br/><br/>
-                <span className='yellow-side'>September 24 - Tuesday</span> <span className='breaker'></span>
-                📌 Accounting: Bring Exercise 2 - Yellow Paper<br/><br/>
                 <span className='yellow-side'>September 25 - Wednesday</span> <span className='breaker'></span>
                 📌 USELF SAS 2 <span className='yellow-side'>[12NN]</span>  <br/>
                 📌 DBSYS Presentation <br/><br/> 
