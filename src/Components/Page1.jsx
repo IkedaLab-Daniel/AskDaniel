@@ -66,8 +66,8 @@ function Page1(){
                 📌 Netacad Module 4 Lab <span className='yellow-side'>[12MN]</span><br/>
                 </p>
 
-    const toPay = <p key="2">📌 IBCE Student Activity Fee:<br/> ₱150 <span className='yellow-side'>DUE Sep.24</span> <br/><br/>
-                    📌 SSITE Membership Fee:<br/> ₱200<br/><br/>
+    const toPay = <p key="2">📌 IBCE Student Activity Fee:<br/> ₱150 <span className='yellow-side' style={{color: "red",}}>Overdue!</span> <br/><br/>
+                    📌 SSITE Membership Fee:<br/> ₱200 <span className='yellow-side' style={{color: "red",}}>Overdue!</span><br/><br/>
                     💵 Pay on: <br/>
                     GCash - <span className="phone-num" onClick={copyToClipboard}>{textToCopy} </span><br/>
                     <span className='yellow-side'>Click number to copy</span><br/>
@@ -206,7 +206,7 @@ function Page1(){
                 <p onClick={showAnswer2}>📝 Ano mga ginagawa?</p>
                 <p onClick={showAnswer3}>💸 Ano mga binabayaran?</p>
                 <p onClick={showAnswerFiles}>📁 Files</p>
-                <p onClick={showAnswerAbout}> 💡 About  <span className='yellow-side'>(New!)</span></p>
+                <p onClick={showAnswerAbout}> 💡 About</p>
                 <p onClick={showAnswerAnnounce}> 🚨 Announcement</p>
             </div>
 
