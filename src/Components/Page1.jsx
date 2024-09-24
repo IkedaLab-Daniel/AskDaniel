@@ -11,7 +11,7 @@ function Page1(){
 
     const textToCopy = "09051315374";
     const [toogleModal, setToggleModal] = useState({
-        display: "fixed",
+        display: "none",
     })
     const [displayToggle, setDisplayToggle]= useState({
         display: "none",
@@ -75,10 +75,7 @@ function Page1(){
                     <br/>
                     Cash - See Ice during F2F class</p>
     const anouncement = <p>
-        Sa mga hindi pa nakapag-bayad ng IBCE Student Activity Fee (₱150), <span style={{color: "red"}}>Deadliest deadline</span> is September 24 (Tuesday)! <br/><br/>
-        Possible to be affected:<br/>
-        <span style={{color: "red"}}>Clearance - Dean's Office</span><br/>
-        <span style={{color: "red"}}>Clearance - Collection Office</span><br/>
+        No Announcement
 
     </p>
 
@@ -225,13 +222,8 @@ function Page1(){
 
 
             <div id="modal" style={toogleModal}>
-                <h2>🚨 Announcement 🚨</h2>
                 {anouncement}
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-r89WqkOt80jbX5mELpcFlKvCbVUvLSx7Tw&s" alt="" />
-                <div className="button-container">
                     <p className='close' onClick={toggleOffModal}>Close</p>
-                    <p className='green' onClick={handlePay}>Pay Now</p>
-                </div>
             </div>
 
             
