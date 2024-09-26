@@ -43,7 +43,7 @@ function Page1(){
         </p>,
 
         <p key={8}  className='class'>👨‍🏫PE3 10:00am - 12:00pm <span className='yellow-side'> Online</span> <br/>
-            👨‍🏫Web Programming 2:00pm - 5:00pm <span className='yellow-side'>F2F @ iLab/CISCO Lab</span></p>,
+            👨‍🏫Web Programming 2:00pm - 5:00pm <span className='yellow-side'>Online</span></p>,
 
         <p key={9}  className='class'>❤️ No Class<br/><br/><span className='async'>Asyncronous:<br/> WebProg 11AM - 1PM</span></p>,
         <p key={3} className='class'>❤️ No Class</p>,
@@ -53,14 +53,12 @@ function Page1(){
                 <span className='yellow-side'>Self-paced</span> <span className='breaker'></span>
                 📌 CISCO netacad IT Essentials<br/>
                 📌 CISCO netacad Badge <span className='yellow-side'>[Required for Midterm]</span><br/><br/> 
-                <span className='yellow-side'>September 26 - Thursday</span> <span className='breaker'></span>
-                📌 Science Assessment 2 <span className='yellow-side'>[5PM]</span><br/>
-                📌 Art Appreciation Module 2 <span className='yellow-side'>[6PM]</span><br/>
-                📌 Web Prog Assignment 4 <span className='yellow-side'>[12MN]</span><br/><br/>
                 <span className='yellow-side'>September 27 - Friday</span> <span className='breaker'></span>
                 📌 PE3 Worksheet 3 <span className='yellow-side'>[5PM]</span><br/><br/>
                 <span className='yellow-side'>September 30 - Monday</span> <span className='breaker'></span>
-                📌 Netacad Module 4 Lab <span className='yellow-side'>[12MN]</span><br/>
+                📌 Netacad Module 4 Lab <span className='yellow-side'>[12MN]</span><br/><br/>
+                <span className='yellow-side'>October 3 - Thursday</span> <span className='breaker'></span>
+                📌 Art Appreciation - Analogy - Module 3 <br/><br/>
                 </p>
 
     const toPay = <p key="2">📌 IBCE Student Activity Fee:<br/> ₱150 <span className='yellow-side' style={{color: "red",}}>Overdue!</span> <br/><br/>
