@@ -52,10 +52,7 @@ function Page1(){
     const Tasks = <p key="1">
                 <span className='yellow-side'>Self-paced</span> <span className='breaker'></span>
                 📌 CISCO netacad IT Essentials<br/>
-                📌 CISCO netacad Badge <span className='yellow-side'>[Required for Midterm]</span><br/><br/>
-                <span className='yellow-side'>September 25 - Wednesday</span> <span className='breaker'></span>
-                📌 USELF SAS 2 <span className='yellow-side'>[12NN]</span>  <br/>
-                📌 DBSYS Presentation <br/><br/> 
+                📌 CISCO netacad Badge <span className='yellow-side'>[Required for Midterm]</span><br/><br/> 
                 <span className='yellow-side'>September 26 - Thursday</span> <span className='breaker'></span>
                 📌 Science Assessment 2 <span className='yellow-side'>[5PM]</span><br/>
                 📌 Art Appreciation Module 2 <span className='yellow-side'>[6PM]</span><br/>
