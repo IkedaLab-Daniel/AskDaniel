@@ -50,13 +50,15 @@ function Page1(){
     ];
 
     const Tasks = <p key="1">
-                <span className='yellow-side'>Self-paced</span> <span className='breaker'></span>
-                📌 CISCO netacad IT Essentials<br/>
-                📌 CISCO netacad Badge <span className='yellow-side'>[Required for Midterm]</span><br/><br/> 
-                <span className='yellow-side'>September 30 - Monday</span> <span className='breaker'></span>
-                📌 Netacad Module 4 Lab <span className='yellow-side'>[12MN]</span><br/><br/>
                 <span className='yellow-side'>October 3 - Thursday</span> <span className='breaker'></span>
-                📌 Art Appreciation - Analogy - Module 3 <br/><br/>
+                📌 Art Appreciation - Analogy - Module 3 <br/>
+                📌 NetAcad Check Point Exam Module 1-4 <br/><br/>
+                <span className='yellow-side'>October 4 - Friday</span> <span className='breaker'></span>
+                📌 PE Drugs Activity <br/><br/>
+                <span className='yellow-side'>October 8 - Tuesday</span> <span className='breaker'></span>
+                📌 Accounting Exercise 1 <br/><br/>
+                <span className='yellow-side'>October 11 - Friday</span> <span className='breaker'></span>
+                📌 CISCO netacad Badge <span className='yellow-side'></span><br/><br/> 
                 </p>
 
     const toPay = <p key="2">📌 IBCE Student Activity Fee:<br/> ₱150 <span className='yellow-side' style={{color: "red",}}>Overdue!</span> <br/><br/>
