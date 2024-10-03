@@ -27,7 +27,7 @@ function Page1(){
     const [handleAnswer, setHandleAnswer] = useState(<p>Ask a question!</p>);
     const classes = [
         <p key={3} className='class'>❤️ No Class</p>,
-        <p key={4}  className='class'>👨‍🏫 CISCO 9:00am - 12:00pm <span className='yellow-side'>Online</span><br/><br/><span className='async'>📚 Asyncronous: Database, Data Structure</span></p>,
+        <p key={4}  className='class'>👨‍🏫 CISCO 9:00am - 12:00pm <span className='yellow-side'>Online</span><br/><br/><span className='async'>📚 Asynchronous: Database, Data Structure</span></p>,
 
         <p key={5}  className='class'>👨‍🏫 Accounting 3:00pm - 6:00pm  <span className='yellow-side'>Online</span></p>,
 
@@ -35,29 +35,25 @@ function Page1(){
             <span>👨‍🏫Database 8:00am - 11:00am </span>
             <span className="yellow-side">Online</span> <br/>
             👨‍🏫Science 6:00pm - 9:00pm <span className='yellow-side'>Online</span>  <br/><br/>
-            <span className='async'>📚 Asyncronous: Understanding the Self</span>
+            <span className='async'>📚 Asynchronous: Understanding the Self</span>
             </p>,
 
         <p key={7}  className='class'>👨‍🏫Data Structure 12:00pm - 3:00pm <span className='yellow-side'>Online</span> <br/><br/>
-            <span className='async'>📚 Asyncronous: Art Appreciation, CISCO</span>
+            <span className='async'>📚 Asynchronous: Art Appreciation, CISCO</span>
         </p>,
 
-        <p key={8}  className='class'>👨‍🏫PE3 10:00am - 12:00pm <span className='yellow-side'> F2F @ Gymnasium (MAIN)</span> <br/>
-            👨‍🏫Web Programming 2:00pm - 5:00pm <span className='yellow-side'>Online</span></p>,
+        <p key={8}  className='class'>👨‍🏫PE3 10:00am - 12:00pm <span className='yellow-side'> Asynchronous </span> <br/>
+            👨‍🏫Web Programming 2:00pm - 5:00pm <span className='yellow-side'>Online [?]</span></p>,
 
-        <p key={9}  className='class'>❤️ No Class<br/><br/><span className='async'>Asyncronous:<br/> WebProg 11AM - 1PM</span></p>,
+        <p key={9}  className='class'>❤️ No Class<br/><br/><span className='async'>Asynchronous:<br/> WebProg 11AM - 1PM</span></p>,
         <p key={3} className='class'>❤️ No Class</p>,
     ];
 
     const Tasks = <p key="1">
-                <span className='yellow-side'>October 3 - Thursday</span> <span className='breaker'></span>
-                📌 Art Appreciation - Analogy - Module 3 <br/>
-                📌 NetAcad Check Point Exam Module 1-4 <br/><br/>
-                <span className='yellow-side'>October 4 - Friday</span> <span className='breaker'></span>
-                📌 PE Drugs Activity <br/><br/>
                 <span className='yellow-side'>October 8 - Tuesday</span> <span className='breaker'></span>
                 📌 Accounting Exercise 1 <br/><br/>
                 <span className='yellow-side'>October 11 - Friday</span> <span className='breaker'></span>
+                📌 PE Drugs Activity <br/>
                 📌 CISCO netacad Badge <span className='yellow-side'></span><br/><br/> 
                 </p>
 
