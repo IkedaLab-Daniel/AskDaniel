@@ -43,7 +43,7 @@ function Page1(){
         </p>,
 
         <p key={8}  className='class'>👨‍🏫PE3 10:00am - 12:00pm <span className='yellow-side'> Asynchronous </span> <br/>
-            👨‍🏫Web Programming 2:00pm - 5:00pm <span className='yellow-side'>Online [?]</span></p>,
+            👨‍🏫Web Programming 2:00pm - 5:00pm <span className='yellow-side'>Asynchronous</span></p>,
 
         <p key={9}  className='class'>❤️ No Class<br/><br/><span className='async'>Asynchronous:<br/> WebProg 11AM - 1PM</span></p>,
         <p key={3} className='class'>❤️ No Class</p>,
