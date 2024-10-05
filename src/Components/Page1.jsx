@@ -27,23 +27,26 @@ function Page1(){
     const [handleAnswer, setHandleAnswer] = useState(<p>Ask a question!</p>);
     const classes = [
         <p key={3} className='class'>❤️ No Class</p>,
-        <p key={4}  className='class'>👨‍🏫 CISCO 9:00am - 12:00pm <span className='yellow-side'>Online</span><br/><br/><span className='async'>📚 Asynchronous: Database, Data Structure</span></p>,
+        <p key={4}  className='class'>👨‍🏫 CISCO 9:00am - 12:00pm <span className='yellow-side'>F2F EXAM</span><br/><br/><span className='async'>📚 Asynchronous: Database, Data Structure</span></p>,
 
-        <p key={5}  className='class'>👨‍🏫 Accounting 3:00pm - 6:00pm  <span className='yellow-side'>Online</span></p>,
+        <p key={5}  className='class'>👨‍🏫 Accounting 3:00pm - 6:00pm  <span className='yellow-side'>F2F EXAM</span></p>,
 
         <p key={6}  className='class'>
             <span>👨‍🏫Database 8:00am - 11:00am </span>
-            <span className="yellow-side">Online</span> <br/>
-            👨‍🏫Science 6:00pm - 9:00pm <span className='yellow-side'>Online</span>  <br/><br/>
-            <span className='async'>📚 Asynchronous: Understanding the Self</span>
+            <span className="yellow-side">F2F EXAM</span> <br/>
+            <span>👨‍🏫USELF 11:00am - 2:00PM </span>
+            <span className="yellow-side">F2F</span> <br/>
+            👨‍🏫Science 6:00pm - 9:00pm <span className='yellow-side'>F2F EXAM</span>  <br/><br/>
             </p>,
 
-        <p key={7}  className='class'>👨‍🏫Data Structure 12:00pm - 3:00pm <span className='yellow-side'>Online</span> <br/><br/>
-            <span className='async'>📚 Asynchronous: Art Appreciation, CISCO</span>
+        <p key={7}  className='class'>👨‍🏫Data Structure 12:00pm - 3:00pm <span className='yellow-side'>F2F EXAM</span> <br/>
+            <span>👨‍🏫Art Appreciation 6:00PM - 9:00PM </span>
+            <span className="yellow-side">F2F</span> <br/><br/>
+            <span className='async'>📚 Asynchronous: CISCO</span>
         </p>,
 
-        <p key={8}  className='class'>👨‍🏫PE3 10:00am - 12:00pm <span className='yellow-side'> Asynchronous </span> <br/>
-            👨‍🏫Web Programming 2:00pm - 5:00pm <span className='yellow-side'>Asynchronous</span></p>,
+        <p key={8}  className='class'>👨‍🏫PE3 10:00am - 12:00pm <span className='yellow-side'> Midterm (Chess) </span> <br/>
+            👨‍🏫Web Programming 2:00pm - 5:00pm <span className='yellow-side'>F2F EXAM</span></p>,
 
         <p key={9}  className='class'>❤️ No Class<br/><br/><span className='async'>Asynchronous:<br/> WebProg 11AM - 1PM</span></p>,
         <p key={3} className='class'>❤️ No Class</p>,
