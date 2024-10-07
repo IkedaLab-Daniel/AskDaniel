@@ -300,6 +300,62 @@ li:hover{
   color: white;
 }
 
+#down{
+  background-color: #16181c;
+  width: 100vw;
+  height: 100vh;
+}
+
+.down-modal{
+  color: rgb(59, 59, 59);
+  max-width: 500px;
+  width: 80vw;
+  height: auto;
+  background-color: rgba(238, 238, 238, 0.8);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border-radius: 15px;
+  animation: fadeIn 1s forwards;
+}
+
+.down-modal h2{
+  text-align: center;
+}
+
+.down-modal p{
+  margin: 10px;
+}
+
+.down-modal .marki-btn{
+  text-align: center;
+  background-color: #16181c;
+  color: white;
+  width: auto;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 30px;
+  transition: 1s;
+}
+
+.down-modal .marki-btn:hover{
+  background-color: black;
+  transform: translate(0px, 5px);
+}
+
+.down-modal .img-container{
+  display: flex;
+  justify-content: center;
+}
+.down-modal img{
+  max-width: 150px;
+  width: 50%;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px 0px rgba(90, 89, 89, 0.3);
+}
+
 
 /* ################    FOOTER     ##################### */
 
