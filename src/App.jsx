@@ -6,10 +6,9 @@ import Down from './Components/Down'
 function App() {
     return(
       <>
-        {/* <Page1 />
-        <span className='version'>Ver 1.3.16</span>
-        <Footer /> */}
-        <Down />
+        <Page1 />
+        <span className='version'>Ver 1.3.17</span>
+        <Footer />
       </>
     )
   

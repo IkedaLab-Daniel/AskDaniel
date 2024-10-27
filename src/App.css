@@ -2,13 +2,16 @@
 
 body{
   font-family: "Kanit", system-ui;
-  background-color: #31363F;
+  background-color: #31363F; 
+  background-image: radial-gradient(circle, rgb(94, 94, 94) 1.5px, transparent 1px);
+  background-size: 20px 20px; /* Adjusts spacing between dots */
   color: #EEEEEE;
   margin: 0;
 }
 
 #main{
   background-color: #222831;
+
   padding: 50px 0;
   margin: 10vh 10vw;
   border-radius: 24px;
