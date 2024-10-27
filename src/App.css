@@ -16,6 +16,7 @@ body{
   margin: 10vh 10vw;
   border-radius: 24px;
   box-shadow: 0px 0px 75px 12px rgba(167, 167, 167, 0.1), -5px 0px 75px -42px rgba(0,0,0,0.9) inset;
+  animation: fadeIn 2s forwards,  
 } 
 
 #title{
@@ -27,6 +28,7 @@ body{
   display: inline-block;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
+  animation: fadeIn 1s forwards;
 }
 
 #title img{
@@ -40,6 +42,9 @@ body{
   margin: auto;
   border: rgba(238, 238, 238, 0.6) 2px solid;
   border-radius: 10px;
+  animation: up 1s forwards,
+            fadeIn 2s forwards;
+
 }
 
 #buttons-container p{
@@ -61,6 +66,7 @@ body{
   border-bottom: rgba(255, 255, 255, 0.8) 2px solid;
   width: 80%;
   margin: 40px auto;
+  animation: fadeIn 2s forwards;
 }
 
 #answer-box{
@@ -75,6 +81,7 @@ body{
   min-height: 300px;
   height: auto;
   margin-bottom: 30px;
+  animation: up1sDelay 1s forwards;
 }
 
 #answer-box p{
@@ -554,6 +561,29 @@ footer{
   }
   0%{
     opacity: 0;
+  }
+}
+
+@keyframes up{
+  0%{
+    transform: translate(0, 200px);
+  }
+  100%{
+    transform: translate(0,0);
+  }
+}
+
+@keyframes up1sDelay{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    transform: translate(0, 200px);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0,0);
+    opacity: 1;
   }
 }
 
