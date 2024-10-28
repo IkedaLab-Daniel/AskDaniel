@@ -29,7 +29,7 @@ function Page1(){
         <p key={3} className='class'>❤️ No Class</p>,
         <p key={4}  className='class'>👨‍🏫 CISCO 9:00am - 12:00pm <span className='yellow-side'>Online</span><br/><br/><span className='async'>📚 Asynchronous: Database, Data Structure</span></p>,
 
-        <p key={5}  className='class'>👨‍🏫 Accounting 3:00pm - 6:00pm  <span className='yellow-side'>F2F EXAM</span></p>,
+        <p key={5}  className='class'>👨‍🏫 Accounting 3:00pm - 6:00pm  <span className='yellow-side'>Online</span></p>,
 
         // Comment for now due to mental health break
         // <p key={6}  className='class'>
