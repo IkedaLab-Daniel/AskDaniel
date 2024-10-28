@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import Tutorial from './Tutorial';
+import Weather from './Weather';
 /* Sorry, 1 component lang 'to kahit naka react. Di ko kasi expect na lalaki siya hihi */
 
 function Page1(){
@@ -218,7 +219,7 @@ function Page1(){
             </div>
 
             <div id="answer-box">
-                <p className='right'>Today is {dayName}!</p>
+                <Weather dayName={dayName} />
                 <p style={displayToggle}>Class Tomorrow:</p>
                 {handleAnswer}
             </div>

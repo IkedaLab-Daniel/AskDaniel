@@ -131,10 +131,6 @@ body{
   text-decoration: underline;
 }
 
-.right{
-  text-align: right;
-  font-style: italic;
-}
 
 li{
   animation: fadeIn 2s forwards;
@@ -446,6 +442,25 @@ footer{
   background: none;
 }
 
+#weather{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  border-bottom: 2px rgb(142, 142, 142) solid;
+  padding: 5px 0;
+}
+
+#weather span{
+  font-size: 1rem;
+  color: rgb(255, 255, 69);
+  padding: 10px;
+}
+
+#weather img{
+  width: 40px;
+  padding: 0 20px 0 0 ;
+}
+
 
 @media only screen and (max-width: 600px) {
   #main{
@@ -543,7 +558,20 @@ footer{
     font-size: 1rem;
     margin-top: 30px;
   }
+
+  
+
+  #weather span{
+    font-size: 0.75rem;
+    padding: 0 5px 0 0;
+  }
+
+  #weather img{
+    width: 30px;
+  }
 }
+
+
 
 
 @keyframes fadeIn {
