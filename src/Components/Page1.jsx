@@ -72,12 +72,17 @@ function Page1(){
     </p>
 
     // announcement delay
-    setTimeout(() => {
-        setToggleModal(prev => ({
-            ...prev,
-            display: 'block',
-        }))
-    }, 5000);
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setToggleModal(prev => ({
+                ...prev,
+                display: 'block',
+            }));
+        }, 5000);
+    
+        return () => clearTimeout(timer); // Clear timeout on component unmount
+    }, []);
+    
 
 
 
