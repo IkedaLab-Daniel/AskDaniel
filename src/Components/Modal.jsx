@@ -25,17 +25,10 @@ function Modal(props){
         showAnswer3();
     }
 
-    const anouncement = <p>
-        Sa mga hindi pa nakapag-bayad ng IBCE Student Activity Fee (₱150), last chance niyo na po hanggang September 20!<br/><br/>
-        Possible to be affected:<br/>
-        <span style={{color: "red"}}>Clearance - Dean's Office</span><br/>
-        <span style={{color: "red"}}>Clearance - Collection Office</span><br/>
-    </p>
-
     return(
         <>
             <div id="modal" style={toogleModal}>
-                <h2>🚨 Anouncement 🚨</h2>
+                <h2>🚨 IBCE SAF 🚨</h2>
                 {anouncement}
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-r89WqkOt80jbX5mELpcFlKvCbVUvLSx7Tw&s" alt="" />
                 <div className="button-container">

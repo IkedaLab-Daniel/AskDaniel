@@ -64,9 +64,20 @@ function Page1(){
                     <br/>
                     Cash - See Ice during F2F class</p>
     const anouncement = <p>
-        No Announcement
+        Maari naman po mag bayad ng 50/50 0r 25%, 25% then 50%. Para po di mabigat sa ibang Students. <br/><br/>
+        Alam po namin na maraming Bayarin at Maraming gastosin sa mga School Activities asahan ko po na encourage nyo po sila na mag bayad for SAF.<br/><br/>
 
+        Addtional information since di pa po APPROVED yung amendments ng Constitution and Bylaws. Gawin po natin yung 50/50 or 25%, 25% then 50% para po hindi mabigat sa mga di pa nag bayad.<br/><br/>
+        - IBCE <br/>
     </p>
+
+    // announcement delay
+    setTimeout(() => {
+        setToggleModal(prev => ({
+            ...prev,
+            display: 'block',
+        }))
+    }, 5000);
 
 
 
@@ -211,6 +222,7 @@ function Page1(){
 
 
             <div id="modal" style={toogleModal}>
+                <h2>🚨 IBCE SAF 🚨</h2>
                 {anouncement}
                     <p className='close' onClick={toggleOffModal}>Close</p>
             </div>

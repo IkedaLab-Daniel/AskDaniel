@@ -231,6 +231,8 @@ li:hover{
 }
 
 .close{
+  text-align: right;
+  color: red;
   transition: .3s;
 }
 
