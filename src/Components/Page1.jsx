@@ -51,9 +51,13 @@ function Page1(){
     ];
 
     const Tasks = <p key="1">
-                <span className='yellow-side'>November 6 - Wednesday</span> <span className='breaker'></span>
+                <span className='yellow-side'>November 6 - Wednesday - 12MN</span> <span className='breaker'></span>
                 📌 Science Module 1 Assessment #3 <br/><br/>
+
+                <span className='yellow-side'>November 14 - Thursday- 12NN</span> <span className='breaker'></span>
+                📌 USELF Worksheet #3 <br/><br/>
                 </p>
+
 
     const toPay = <p key="2">📌 IBCE Student Activity Fee:<br/> ₱150 <span className='yellow-side' style={{color: "red",}}>Overdue!</span> <br/><br/>
                     📌 SSITE Membership Fee:<br/> ₱200 <span className='yellow-side' style={{color: "red",}}>Overdue!</span><br/><br/>
