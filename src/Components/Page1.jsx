@@ -41,8 +41,8 @@ function Page1(){
             <span className='async'>📚 Asynchronous: CISCO, Art Appreciation </span>
         </p>,
 
-        <p key={8}  className='class'>👨‍🏫PE3 10:00am - 12:00pm <span className='yellow-side'> F2F </span> <br/>
-            👨‍🏫Web Programming 2:00pm - 5:00pm <span className='yellow-side'>F2F</span></p>,
+        <p key={8}  className='class'>👨‍🏫PE3 10:00am - 12:00pm <span className='yellow-side'> Online </span> <br/>
+            👨‍🏫Web Programming 2:00pm - 5:00pm <span className='yellow-side'>F2F @ CISCO Lab</span></p>,
 
         <p key={9}  className='class'>❤️ No Class<br/><br/><span className='async'>Asynchronous:<br/> WebProg 11AM - 1PM</span></p>,
         <p key={3} className='class'>❤️ No Class</p>,
@@ -51,8 +51,6 @@ function Page1(){
     ];
 
     const Tasks = <p key="1">
-                <span className='yellow-side'>November 6 - Wednesday - 12MN</span> <span className='breaker'></span>
-                📌 Science Module 1 Assessment #3 <br/><br/>
 
                 <span className='yellow-side'>November 14 - Thursday- 12NN</span> <span className='breaker'></span>
                 📌 USELF Worksheet #3 <br/><br/>
