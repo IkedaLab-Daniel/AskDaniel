@@ -7,7 +7,7 @@ function App() {
     return(
       <>
         <Page1 />
-        <span className='version'>V1.4.6</span>
+        <span className='version'>V1.4.7</span>
         <Footer />
       </>
     )
