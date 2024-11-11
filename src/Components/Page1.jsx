@@ -54,6 +54,8 @@ function Page1(){
 
                 <span className='yellow-side'>November 14 - Thursday- 12NN</span> <span className='breaker'></span>
                 📌 USELF Worksheet #3 <br/><br/>
+                <span className='yellow-side'>November 15 - Friday- 12MN</span> <span className='breaker'></span>
+                📌 CISCO Packet Tracer <br/><br/>
                 </p>
 
 
