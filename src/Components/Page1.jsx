@@ -56,6 +56,8 @@ function Page1(){
                 📌 USELF Worksheet #3 <br/><br/>
                 <span className='yellow-side'>November 15 - Friday- 12MN</span> <span className='breaker'></span>
                 📌 CISCO Packet Tracer <br/><br/>
+                <span className='yellow-side'>November 19 - Wednesday - F2F Class</span> <span className='breaker'></span>
+                📌 Trial Balance  <br/><br/>
                 </p>
 
 
