@@ -28,7 +28,7 @@ function Page1(){
     const [handleAnswer, setHandleAnswer] = useState(<p>Ask a question!</p>);
     const classes = [
         <p key={3} className='class'>❤️ No Class</p>,
-        <p key={4}  className='class'>👨‍🏫 CISCO 9:00am - 12:00pm <span className='yellow-side'>F2F @ iLab</span><br/><br/><span className='async'>📚 Asynchronous: Database, Data Structure</span></p>,
+        <p key={4}  className='class'>👨‍🏫 CISCO 9:00am - 12:00pm <span className='yellow-side'>F2F [Suspended] (Maybe OC)</span><br/><br/><span className='async'>📚 Asynchronous: Database, Data Structure</span></p>,
         <p key={5}  className='class'>👨‍🏫 Accounting 3:00pm - 6:00pm  <span className='yellow-side'>F2F</span></p>,
         <p key={6}  className='class'>
             <span>👨‍🏫Database 8:00am - 11:00am </span>
@@ -52,7 +52,7 @@ function Page1(){
 
     const Tasks = <p key="1">
 
-                <span className='yellow-side'>November 19 - Wednesday - F2F Class</span> <span className='breaker'></span>
+                <span className='yellow-side'>November 19 - Tuesday - F2F Class</span> <span className='breaker'></span>
                 📌 Trial Balance  <br/><br/>
                 <span className='yellow-side'>November 21 - Thursday - 6PM</span> <span className='breaker'></span>
                 📌 Art Appreciation Module Activity <br/><br/>
