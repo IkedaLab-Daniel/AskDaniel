@@ -37,7 +37,7 @@ function Page1(){
             <span className='async'>📚 Asynchronous: USELF</span>
         </p>,
 
-        <p key={7}  className='class'>👨‍🏫Data Structure 12:00pm - 3:00pm <span className='yellow-side'>F2F @iLab</span> <br/><br/>
+        <p key={7}  className='class'>👨‍🏫Data Structure 12:00pm - 3:00pm <span className='yellow-side'>F2F [Wait for announcement]</span> <br/><br/>
             <span className='async'>📚 Asynchronous: CISCO, Art Appreciation </span>
         </p>,
 
@@ -52,10 +52,17 @@ function Page1(){
 
     const Tasks = <p key="1">
 
-                <span className='yellow-side'>November 19 - Tuesday - F2F Class</span> <span className='breaker'></span>
-                📌 Trial Balance  <br/><br/>
                 <span className='yellow-side'>November 21 - Thursday - 6PM</span> <span className='breaker'></span>
                 📌 Art Appreciation Module Activity <br/><br/>
+
+                <span className='yellow-side'>November 22 - Friday</span> <span className='breaker'></span>
+                📌 PE Worksheet 1,3<br/><br/>
+
+                <span className='yellow-side'>November 28 - Thursday - 12NN</span> <span className='breaker'></span>
+                📌 USELF Worksheet 4<br/><br/>
+
+                <span className='yellow-side'>December 6 - Friday</span> <span className='breaker'></span>
+                📌 PE Worksheet 2 (VLOG)<br/><br/>
                 </p>
 
 
