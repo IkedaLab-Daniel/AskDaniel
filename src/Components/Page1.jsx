@@ -28,21 +28,21 @@ function Page1(){
     const [handleAnswer, setHandleAnswer] = useState(<p>Ask a question!</p>);
     const classes = [
         <p key={3} className='class'>❤️ No Class</p>,
-        <p key={4}  className='class'>👨‍🏫 CISCO 9:00am - 12:00pm <span className='yellow-side'>F2F [Suspended] (Maybe OC)</span><br/><br/><span className='async'>📚 Asynchronous: Database, Data Structure</span></p>,
-        <p key={5}  className='class'>👨‍🏫 Accounting 3:00pm - 6:00pm  <span className='yellow-side'>F2F</span></p>,
+        <p key={4}  className='class'>👨‍🏫 CISCO 9:00am - 12:00pm <span className='yellow-side'>OC</span><br/><br/><span className='async'>📚 Asynchronous: Database, Data Structure</span></p>,
+        <p key={5}  className='class'>👨‍🏫 Accounting 3:00pm - 6:00pm  <span className='yellow-side'>OC</span></p>,
         <p key={6}  className='class'>
             <span>👨‍🏫Database 8:00am - 11:00am </span>
-            <span className="yellow-side">F2F</span> <br/>
+            <span className="yellow-side">OC</span> <br/>
             👨‍🏫Science 6:00pm - 9:00pm <span className='yellow-side'>F2F</span>  <br/><br/>
             <span className='async'>📚 Asynchronous: USELF</span>
         </p>,
 
-        <p key={7}  className='class'>👨‍🏫Data Structure 12:00pm - 3:00pm <span className='yellow-side'>F2F [Wait for announcement]</span> <br/><br/>
+        <p key={7}  className='class'>👨‍🏫Data Structure 12:00pm - 3:00pm <span className='yellow-side'>Attend IBCE event for attendace</span> <br/><br/>
             <span className='async'>📚 Asynchronous: CISCO, Art Appreciation </span>
         </p>,
 
-        <p key={8}  className='class'>👨‍🏫PE3 10:00am - 12:00pm <span className='yellow-side'> Online [?] </span> <br/>
-            👨‍🏫Web Programming 2:00pm - 5:00pm <span className='yellow-side'>F2F</span></p>,
+        <p key={8}  className='class'>👨‍🏫PE3 10:00am - 12:00pm <span className='yellow-side'> Attend IBCE event for attendace </span> <br/>
+            👨‍🏫Web Programming 2:00pm - 5:00pm <span className='yellow-side'>Attend IBCE event for attendace</span></p>,
 
         <p key={9}  className='class'>❤️ No Class<br/><br/><span className='async'>Asynchronous:<br/> WebProg 11AM - 1PM</span></p>,
         <p key={3} className='class'>❤️ No Class</p>,
@@ -51,12 +51,6 @@ function Page1(){
     ];
 
     const Tasks = <p key="1">
-
-                <span className='yellow-side'>November 21 - Thursday - 6PM</span> <span className='breaker'></span>
-                📌 Art Appreciation Module Activity <br/><br/>
-
-                <span className='yellow-side'>November 22 - Friday</span> <span className='breaker'></span>
-                📌 PE Worksheet 1,3<br/><br/>
 
                 <span className='yellow-side'>November 28 - Thursday - 12NN</span> <span className='breaker'></span>
                 📌 USELF Worksheet 4<br/><br/>
