@@ -33,7 +33,7 @@ function Page1(){
         <p key={6}  className='class'>
             <span>👨‍🏫Database 8:00am - 11:00am </span>
             <span className="yellow-side">OC</span> <br/>
-            👨‍🏫Science 6:00pm - 9:00pm <span className='yellow-side'>F2F</span>  <br/><br/>
+            👨‍🏫Science 6:00pm - 9:00pm <span className='yellow-side'>No Class</span>  <br/><br/>
             <span className='async'>📚 Asynchronous: USELF</span>
         </p>,
 
@@ -57,7 +57,14 @@ function Page1(){
 
                 <span className='yellow-side'>December 6 - Friday</span> <span className='breaker'></span>
                 📌 PE Worksheet 2 (VLOG)<br/><br/>
+
+                <span className='yellow-side'>December 6 - Friday</span> <span className='breaker'></span>
+                📌 WebProg Final Boss<br/><br/>
+
+                <span className='yellow-side'>December 6/7 - Saturday</span> <span className='breaker'></span>
+                📌 CISCO All Modules (unlocked), assignments, 3 badges<br/><br/>
                 </p>
+                
 
 
     const toPay = <p key="2">📌 IBCE Student Activity Fee:<br/> ₱150 <span className='yellow-side' style={{color: "red",}}>Overdue!</span> <br/><br/>
