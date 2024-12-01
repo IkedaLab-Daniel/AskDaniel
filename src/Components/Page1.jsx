@@ -29,7 +29,7 @@ function Page1(){
     const [handleAnswer, setHandleAnswer] = useState(<p>Ask a question!</p>);
     const classes = [
         <p key={3} className='class'>❤️ No Class</p>,
-        <p key={4}  className='class'>👨‍🏫 CISCO 1PM <span className='yellow-side'>Exam @ iLab</span><br/><br/><span className='async'>📚 Asynchronous: Database, Data Structure</span></p>,
+        <p key={4}  className='class'>👨‍🏫 CISCO 10:30AM <span className='yellow-side'>Exam @ iLab</span><br/><br/><span className='async'>📚 Asynchronous: Database, Data Structure</span></p>,
         <p key={5}  className='class'>👨‍🏫 Accounting 3:00pm - 6:00pm  <span className='yellow-side'>Exam</span></p>,
         <p key={6}  className='class'>
             <span>👨‍🏫Database 8:00am - 11:00am </span>
