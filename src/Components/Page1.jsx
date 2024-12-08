@@ -29,41 +29,27 @@ function Page1(){
     const [handleAnswer, setHandleAnswer] = useState(<p>Ask a question!</p>);
     const classes = [
         <p key={3} className='class'>❤️ No Class</p>,
-        <p key={4}  className='class'>👨‍🏫 CISCO 10:30AM <span className='yellow-side'>Exam @ iLab</span><br/><br/><span className='async'>📚 Asynchronous: Database, Data Structure</span></p>,
-        <p key={5}  className='class'>👨‍🏫 Accounting 3:00pm - 6:00pm  <span className='yellow-side'>Exam</span></p>,
+        <p key={4}  className='class'>❤️ No Class</p>,
+        <p key={5}  className='class'>❤️ No Class</p>,
         <p key={6}  className='class'>
-            <span>👨‍🏫Database 8:00am - 11:00am </span>
-            <span className="yellow-side">Exam</span> <br/>
-            👨‍🏫Science 6:00pm - 9:00pm <span className='yellow-side'>F2F Class</span>  <br/><br/>
-            <span className='async'>📚 Asynchronous: USELF</span>
+            <span>USELF 11:00AM - 12:00NN</span>
+            <span className="yellow-side">Socrative Exam</span> <br/>
         </p>,
 
-        <p key={7}  className='class'>👨‍🏫Data Structure 12:00pm - 3:00pm <span className='yellow-side'>F2F Class</span> <br/><br/>
-            <span className='async'>📚 Asynchronous: CISCO, Art Appreciation </span>
+        <p key={7}  className='class'>Art Appreciation 6PM - 9PM <span className='yellow-side'>Final Exam F2F</span> <br/><br/>
         </p>,
 
-        <p key={8}  className='class'>👨‍🏫PE3 10:00am - 12:00pm <span className='yellow-side'>(?)</span> <br/>
-            👨‍🏫Web Programming 2:00pm - 5:00pm <span className='yellow-side'>Final Boss @ CISCO LAB</span></p>,
-
-        <p key={9}  className='class'>❤️ No Class<br/><br/><span className='async'>Asynchronous:<br/> WebProg 11AM - 1PM</span></p>,
+        <p key={7}  className='class'>PE 10AM - 12NN <span className='yellow-side'>Final Exam Arnis</span> <br/><br/></p>,
+        <p key={9}  className='class'>❤️ No Class</p>,
         <p key={3} className='class'>❤️ No Class</p>,
 
 
     ];
 
     const Tasks = <p key="1">
-
-<span className='yellow-side'>December 5 - Thursday - 6PM</span> <span className='breaker'></span>
-                📌 Art Appreciation Module Activity <br/><br/>
-                <span className='yellow-side'>December 6 - Friday - 12NN</span> <span className='breaker'></span>
-                📌 USELF Last WS <br/><br/>
-                <span className='yellow-side'>December 6 - Friday - 2PM</span> <span className='breaker'></span>
-                📌 Webprog Final Boss<br/><br/>
-                <span className='yellow-side'>December 6 - Friday</span> <span className='breaker'></span>
-                📌 PE Vlog<br/><br/>
-                <span className='yellow-side'>December 7 - Saturday</span> <span className='breaker'></span>
-                📌 ITESS All modules (except locked), assingments, and 3 badges<br/><br/>
-                <span className='yellow-side'>December 13/20 [unconfirmed] - Friday</span> <span className='breaker'></span>
+                <span className='yellow-side'>December 13 - Friday</span> <span className='breaker'></span>
+                📌 WebProg Documentation<br/><br/>
+                <span className='yellow-side'>December 20 - Friday</span> <span className='breaker'></span>
                 📌 Data Structure Sorting Roleplay Video<br/><br/>
                 </p>
 
@@ -74,7 +60,7 @@ function Page1(){
                     <span className='yellow-side'>Click number to copy</span><br/>
                     (J**R C***S)<br/>
                     <br/>
-                    Cash - See Ice during F2F class</p>
+                    </p>
     const anouncement = <p>
         Maari naman po mag bayad ng 50/50 0r 25%, 25% then 50%. Para po di mabigat sa ibang Students. <br/><br/>
         Alam po namin na maraming Bayarin at Maraming gastosin sa mga School Activities asahan ko po na encourage nyo po sila na mag bayad for SAF.<br/><br/>
