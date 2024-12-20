@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react'
 import Tutorial from './Tutorial';
 import Weather from './Weather';
 import Down from './Down';
+import Break from './Break';
 /* Sorry, 1 component lang 'to kahit naka react. Di ko kasi expect na lalaki siya hihi */
 
 function Page1(){
@@ -232,6 +233,7 @@ function Page1(){
 
             
         </div>
+        <Break />
         </>
     )
 }
