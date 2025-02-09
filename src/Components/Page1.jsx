@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from 'react'
 import Tutorial from './Tutorial';
 import Weather from './Weather';
-import Down from './Down';
-import Break from './Break';
+import ClassTeams from './classTeams';
+import { transition } from '@chakra-ui/react';
 /* Sorry, 1 component lang 'to kahit naka react. Di ko kasi expect na lalaki siya hihi */
 
 function Page1(){
@@ -28,46 +28,95 @@ function Page1(){
     }
 
     const [handleAnswer, setHandleAnswer] = useState(<p>Ask a question!</p>);
+    const [dateStyle, setDateStyle]  = useState({
+        height: "0",
+    })
     const classes = [
+        /*  Sunday   */
         <p key={3} className='class'>❤️ No Class</p>,
-        <p key={4}  className='class'>❤️ No Class</p>,
-        <p key={5}  className='class'>❤️ No Class</p>,
+
+        /*  Monday   */
+        <p key={4}  className='class'>
+            <span>Python blyat</span><br/>
+            <span className="yellow-side"> 7:00AM - 10:00AM - F2F @ Advanced Lab</span> <br/><br/>
+            <span>PE4</span><br/>
+            <span className="yellow-side"> 2:00PM - 4:00PM - Online</span> <br/><br/>
+            <span>Game Dev</span><br/>
+            <span className="yellow-side"> 4:00PM - 6:00PM - Online</span> <br/><br/>
+        </p>,
+
+        /*  Tuesday   */
+        <p key={5}  className='class'>
+            <span>NET1</span><br/>
+            <span className="yellow-side"> 7:00AM - 10:00AM - F2F</span> <br/><br/>
+            <span>GameDev</span><br/>
+            <span className="yellow-side"> 11:00AM - 2:00PM - F2F</span> <br/><br/>
+            <span>Contemporary</span><br/>
+            <span className="yellow-side"> 2:30PM - 5:30AM - Online</span> <br/><br/>
+        </p>,
+
+        /*  Wednesday   */
         <p key={6}  className='class'>
-            <span>USELF 11:00AM - 12:00NN</span>
-            <span className="yellow-side">Socrative Exam</span> <br/>
+            <span>ADET</span><br/>
+            <span className="yellow-side"> 7:00AM - 9:00AM - Online</span> <br/><br/>
+            <span>NET1</span><br/>
+            <span className="yellow-side"> 9:00AM - 11:00AM - Online</span> <br/><br/>
+            <span>ADET</span><br/>
+            <span className="yellow-side"> 12:00NN - 3:00PM - F2F </span> <br/><br/>
         </p>,
 
-        <p key={7}  className='class'>Art Appreciation 6PM - 9PM <span className='yellow-side'>Final Exam F2F</span> <br/><br/>
+        /*  Thursday   */
+        <p key={7}  className='class'>
+            ❤️ No Class 
         </p>,
 
-        <p key={7}  className='class'>PE 10AM - 12NN <span className='yellow-side'>Final Exam Arnis</span> <br/><br/></p>,
-        <p key={9}  className='class'>❤️ No Class</p>,
+        /*  Friday   */
+        <p key={7}  className='class'>
+            <span>WebDev w/ sir Batac</span><br/>
+            <span className="yellow-side"> 7:00AM - 9:00AM - F2F @ </span> <br/><br/>
+            <span>WebDev w/ sir Batac</span><br/>
+            <span className="yellow-side"> 12:00NN - 3:00PM - Online</span> <br/><br/>
+        </p>,
+
+        /*  Saturday   */
+        <p key={9}  className='class'>
+            <span>History</span><br/>
+            <span className="yellow-side"> 11:00AM - 2:00PM - Online </span> <br/><br/>
+            <span>Rizal</span><br/>
+            <span className="yellow-side"> 2:30PM - 5:30PM - Online </span> <br/><br/>
+        </p>,
+
+        /* Sunday ulit para sure */
         <p key={3} className='class'>❤️ No Class</p>,
 
 
     ];
 
     const Tasks = <p key="1">
-                <span className='yellow-side'>December 13 - Friday</span> <span className='breaker'></span>
-                📌 WebProg Documentation<br/><br/>
-                <span className='yellow-side'>December 20 - Friday</span> <span className='breaker'></span>
-                📌 Data Structure Sorting Roleplay Video<br/><br/>
+                <span className='yellow-side'>{/* Date here */}</span> 
+                {/*     <span className='breaker'></span>       */}
+                📌 Wala pa<br/><br/>
                 </p>
 
-    const toPay = <p key="2">📌 IBCE Student Activity Fee:<br/> ₱150 <span className='yellow-side' style={{color: "red",}}>Overdue!</span> <br/><br/>
-                    📌 SSITE Membership Fee:<br/> ₱200 <span className='yellow-side' style={{color: "red",}}>Overdue!</span><br/><br/>
-                    💵 Pay on: <br/>
+    const toPay = <p key="2">
+        {/* 📌 IBCE Student Activity Fee:<br/> ₱150 <span className='yellow-side' style={{color: "red",}}>Overdue!</span> <br/><br/> */}
+                    {/* 💵 Pay on: <br/>
                     GCash - <span className="phone-num" onClick={copyToClipboard}>{textToCopy} </span><br/>
                     <span className='yellow-side'>Click number to copy</span><br/>
                     (J**R C***S)<br/>
-                    <br/>
+                    <br/> */}
+                    Wala pa :)
                     </p>
     const anouncement = <p>
-        Maari naman po mag bayad ng 50/50 0r 25%, 25% then 50%. Para po di mabigat sa ibang Students. <br/><br/>
-        Alam po namin na maraming Bayarin at Maraming gastosin sa mga School Activities asahan ko po na encourage nyo po sila na mag bayad for SAF.<br/><br/>
+        <img src='https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/475231386_906747298335616_6148398410533596907_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH-f4Zxj9_EKwo2h8KbvTUYw_oeIG56YfzD-h4gbnph_DfmQ1Q94pjDnFs2h2k9IeFGb4J0vz3ZxlQFH-fXqqSQ&_nc_ohc=gnD1we_2a9MQ7kNvgF79VT4&_nc_oc=Adic5opLOmnk-Xes7zA3fVuDhTGc5plkOrv-GbK3-ymkRP3gsfUgg2_dWpMz820OShE&_nc_zt=23&_nc_ht=scontent.fcrk3-2.fna&_nc_gid=A1_B094_Z-7j2yYJcXASGOv&oh=00_AYDsUN78nnrrpIbs9RUXy79S2E3UNoksp8DHrpP5hLESDg&oe=67AE97C1'/><br/>
+Good Afternoon @everyone, reminder lang po na <br/> <br/>
 
-        Addtional information since di pa po APPROVED yung amendments ng Constitution and Bylaws. Gawin po natin yung 50/50 or 25%, 25% then 50% para po hindi mabigat sa mga di pa nag bayad.<br/><br/>
-        - IBCE <br/>
+Starting tomorrow FEB 10 UNTIL FEB 14 is naka civilian clothing po tayo base sa color sa post ng MCC  <br/> <br/>
+
+Please don't forget your ID for identification para di kayo harangin ng guard  <br/> <br/>
+
+Thank you <br/> <br/>
+        - SSITE President <br/>
     </p>
 
     // announcement delay
@@ -161,6 +210,42 @@ function Page1(){
         showAnswer3();
     }
 
+    function selectDay(){
+        let containerHeight = dateStyle.height;
+        if (containerHeight == "auto"){
+            setDateStyle(prev => ({
+                ...prev,
+                height: "0"
+            }))
+        } else{
+            setDateStyle(prev => ({
+                ...prev,
+                height: "auto"
+            }))
+        }
+    }
+
+    function showSelectDate(day){
+        const selectedDate = classes[day]
+        setHandleAnswer(prevState => (selectedDate));
+        setDisplayToggle(prevState => ({
+            ...prevState,
+            display: "none",
+        }))
+        setDateStyle(prev => ({
+            ...prev,
+            height: "0"
+        }))
+    }
+
+    function scrollDown() {
+        window.scrollTo({
+          top: document.body.scrollHeight,
+          behavior: 'smooth' // for smooth scrolling
+        });
+      }
+      
+
     // const files = <div id='files'>
     //     <a href="https://drive.google.com/drive/folders/1Ynae4_MBdEJbPa9B6AKo4X_V-pqcvk3I?usp=drive_link" target="_blank" rel="noopener noreferrer">
     //     📁 Open Google Drive
@@ -190,18 +275,13 @@ function Page1(){
 
     return(
         <>
-        
         <div id="black-shade" style={toogleModal}>
-
         </div>
         <div id="main">
             <div id="title">
                 <p><span className='yellow'>info</span>.<span className='brown'>IT</span>
                 (<span className='green'>2B</span>)
                 <span>;</span></p>
-                {/*
-                <img src="https://media.tenor.com/WnM0hRj_j98AAAAi/bubu-yier.gif" alt="" />
-                */}
             </div>
                     
             <div id="buttons-container">
@@ -212,6 +292,18 @@ function Page1(){
                 {/* <p onClick={showAnswerFiles}>📁 Files</p> */}
                 <p onClick={showAnswerAbout}> 💡 About</p>
                 <p onClick={showAnswerAnnounce}> 🚨 Announcement</p>
+                <p onClick={scrollDown}> 🔗  Class Teams<span className="new">New!</span></p>
+                <p onClick={selectDay}>⬇️ Select Day<span className="new">New!</span></p>
+                <div className="date-list-container" style={dateStyle}>
+                    <p onClick={() => showSelectDate(1)}>  Monday</p>
+                    <p onClick={() => showSelectDate(2)}>  Tuesday</p>
+                    <p onClick={() => showSelectDate(3)}>  Wednesday</p>
+                    <p onClick={() => showSelectDate(4)}>  Thursday</p>
+                    <p onClick={() => showSelectDate(5)}>  Friday</p>
+                    <p onClick={() => showSelectDate(6)}>  Saturday</p>
+                    <p onClick={() => showSelectDate(7)}>  Sunday</p>
+                </div>
+                
             </div>
 
             <div className="divider">
@@ -226,14 +318,16 @@ function Page1(){
 
 
             <div id="modal" style={toogleModal}>
-                <h2>🚨 IBCE SAF 🚨</h2>
+                <h2>👔 Wear Your Hearts 👔</h2>
                 {anouncement}
                     <p className='close' onClick={toggleOffModal}>Close</p>
             </div>
 
             
         </div>
-        <Break />
+        <div id="class-teams">
+            <ClassTeams/>
+        </div>
         </>
     )
 }

@@ -5,8 +5,8 @@ function Footer(){
             <div className="left-side">
                 <p className="top">Made by:</p>
                 <p className="name-white copy">&copy;</p>
-                <p className="name-yellow">dev</p>
-                <p className="name-white">Daniel</p>
+                <p className="name-yellow">dev.</p>
+                <p className="name-white">IceIce</p>
 
             </div>
             <div className="right-side">
