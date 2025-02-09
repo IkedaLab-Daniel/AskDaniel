@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import Tutorial from './Tutorial';
 import Weather from './Weather';
-import ClassTeams from './classTeams';
+import ClassTeams from './ClassTeams';
 import { transition } from '@chakra-ui/react';
 /* Sorry, 1 component lang 'to kahit naka react. Di ko kasi expect na lalaki siya hihi */
 
@@ -292,7 +292,7 @@ Thank you <br/> <br/>
                 {/* <p onClick={showAnswerFiles}>📁 Files</p> */}
                 <p onClick={showAnswerAbout}> 💡 About</p>
                 <p onClick={showAnswerAnnounce}> 🚨 Announcement</p>
-                <p onClick={scrollDown}> 🔗  Class Teams<span className="new">New!</span></p>
+                <p onClick={scrollDown}> 🔗      Class Teams<span className="new">New!</span></p>
                 <p onClick={selectDay}>⬇️ Select Day<span className="new">New!</span></p>
                 <div className="date-list-container" style={dateStyle}>
                     <p onClick={() => showSelectDate(1)}>  Monday</p>
