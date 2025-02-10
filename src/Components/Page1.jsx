@@ -39,10 +39,12 @@ function Page1(){
         <p key={4}  className='class'>
             <span>Python blyat</span><br/>
             <span className="yellow-side"> 7:00AM - 10:00AM - F2F @ Advanced Lab</span> <br/><br/>
+            <span>Python blyat</span><br/>
+            <span className="yellow-side"> 12:00NN - 2:00PM -<span style={{color: "red",}}> Cancelled</span></span> <br/><br/>
             <span>PE4</span><br/>
             <span className="yellow-side"> 2:00PM - 4:00PM - Online</span> <br/><br/>
             <span>Game Dev</span><br/>
-            <span className="yellow-side"> 4:00PM - 6:00PM - Online</span> <br/><br/>
+            <span className="yellow-side"> 4:00PM - 6:00PM - <span style={{color: "red",}}> Cancelled</span></span> <br/><br/>
         </p>,
 
         /*  Tuesday   */
