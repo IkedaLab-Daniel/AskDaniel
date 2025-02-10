@@ -50,9 +50,9 @@ function Page1(){
         /*  Tuesday   */
         <p key={5}  className='class'>
             <span>NET1</span><br/>
-            <span className="yellow-side"> 7:00AM - 10:00AM - F2F</span> <br/><br/>
+            <span className="yellow-side"> 7:00AM - 10:00AM - F2F @ CISCO Lab</span> <br/><br/>
             <span>GameDev</span><br/>
-            <span className="yellow-side"> 11:00AM - 2:00PM - F2F</span> <br/><br/>
+            <span className="yellow-side"> 11:00AM - 2:00PM - F2F @ iLab</span> <br/><br/>
             <span>Contemporary</span><br/>
             <span className="yellow-side"> 2:30PM - 5:30AM - Online</span> <br/><br/>
         </p>,

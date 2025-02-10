@@ -15,6 +15,9 @@ const ClassTeams = () => {
                     <div className="class-link-container">
                         <a href="https://teams.microsoft.com/l/team/19%3Aw8a_IVZWmqEbHGAARiD1aiYqHrYOh9vHtNFWuIORsTE1%40thread.tacv2/conversations?groupId=429d0481-1932-40fc-994a-ebba8cf3cfde&tenantId=936073b4-1e36-4928-8bf8-a7320e90721d" className="class-link" target="_blank">PE4</a>
                     </div>
+                    <div className="class-link-container">
+                        <a href="https://teams.microsoft.com/l/channel/19%3A4xOR0B71foaygfgBp9IzyRDAETK4UAfKFKUdxeoPWN01%40thread.tacv2/2B%20Python%20Programming?groupId=7b7f0b78-4b56-418d-b076-5db1d87e9346&tenantId=936073b4-1e36-4928-8bf8-a7320e90721d" className="class-link" target="_blank">Python blyats</a>
+                    </div>
                 </div>
                 
             </div>
