@@ -54,7 +54,7 @@ function Page1(){
             <span>GameDev</span><br/>
             <span className="yellow-side"> 11:00AM - 2:00PM -<span style={{color: "red",}}> Cancelled</span></span> <br/><br/>
             <span>Contemporary</span><br/>
-            <span className="yellow-side"> 2:30PM - 5:30AM - Online</span> <br/><br/>
+            <span className="yellow-side"> 2:30PM - 5:30PM - Online</span> <br/><br/>
         </p>,
 
         /*  Wednesday   */
@@ -77,7 +77,7 @@ function Page1(){
             <span>WebDev w/ sir Batac</span><br/>
             <span className="yellow-side"> 7:00AM - 9:00AM - Online </span> <br/><br/>
             <span>WebDev w/ sir Batac</span><br/>
-            <span className="yellow-side"> 12:00NN - 3:00PM - F2F @ Advanced Lab</span> <br/><br/>
+            <span className="yellow-side"> 9:00AM - 12:00NN - F2F @ Advanced Lab</span> <br/><br/>
         </p>,
 
         /*  Saturday   */
