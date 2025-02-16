@@ -37,32 +37,34 @@ function Page1(){
 
         /*  Monday   */
         <p key={4}  className='class'>
-            <span>Python blyat</span><br/>
+            {/* <span>Python blyat</span><br/>
             <span className="yellow-side"> 7:00AM - 10:00AM - F2F @ Advanced Lab</span> <br/><br/>
             <span>Python blyat</span><br/>
             <span className="yellow-side"> 12:00NN - 2:00PM -<span style={{color: "red",}}> Cancelled</span></span> <br/><br/>
             <span>PE4</span><br/>
             <span className="yellow-side"> 2:00PM - 4:00PM - Online</span> <br/><br/>
             <span>Game Dev</span><br/>
-            <span className="yellow-side"> 4:00PM - 6:00PM - <span style={{color: "red",}}> Cancelled</span></span> <br/><br/>
+            <span className="yellow-side"> 4:00PM - 6:00PM - <span style={{color: "red",}}> Cancelled</span></span> <br/><br/> */}
+            <span>IT Days</span>
         </p>,
 
         /*  Tuesday   */
         <p key={5}  className='class'>
-            <span>NET1</span><br/>
+            {/* <span>NET1</span><br/>
             <span className="yellow-side"> 7:00AM - 10:00AM - F2F @ CISCO Lab</span> <br/><br/>
             <span>GameDev</span><br/>
             <span className="yellow-side"> 11:00AM - 2:00PM -<span style={{color: "red",}}> Cancelled</span></span> <br/><br/>
             <span>Contemporary</span><br/>
-            <span className="yellow-side"> 2:30PM - 5:30PM - Online</span> <br/><br/>
+            <span className="yellow-side"> 2:30PM - 5:30PM - Online</span> <br/><br/> */}
+            <span>IT Days</span>
         </p>,
 
         /*  Wednesday   */
         <p key={6}  className='class'>
             <span>ADET</span><br/>
-            <span className="yellow-side"> 7:00AM - 9:00AM - Online</span> <br/><br/>
+            <span className="yellow-side"> 7:00AM - 9:00AM - F2F</span> <br/><br/>
             <span>NET1</span><br/>
-            <span className="yellow-side"> 9:00AM - 11:00AM - Online</span> <br/><br/>
+            <span className="yellow-side"> 9:00AM - 11:00AM - F2F</span> <br/><br/>
             <span>ADET</span><br/>
             <span className="yellow-side"> 12:00NN - 3:00PM - F2F </span> <br/><br/>
         </p>,
@@ -75,17 +77,17 @@ function Page1(){
         /*  Friday   */
         <p key={7}  className='class'>
             <span>WebDev w/ sir Batac</span><br/>
-            <span className="yellow-side"> 7:00AM - 9:00AM - Online </span> <br/><br/>
+            <span className="yellow-side"> 7:00AM - 9:00AM - F2F </span> <br/><br/>
             <span>WebDev w/ sir Batac</span><br/>
-            <span className="yellow-side"> 9:00AM - 12:00NN - F2F @ Advanced Lab</span> <br/><br/>
+            <span className="yellow-side"> 9:00AM - 12:00NN - F2F @ Cisco Lab</span> <br/><br/>
         </p>,
 
         /*  Saturday   */
         <p key={9}  className='class'>
             <span>History</span><br/>
-            <span className="yellow-side"> 11:00AM - 2:00PM - Online </span> <br/><br/>
+            <span className="yellow-side"> 11:00AM - 2:00PM - F2F </span> <br/><br/>
             <span>Rizal</span><br/>
-            <span className="yellow-side"> 2:30PM - 5:30PM - Online </span> <br/><br/>
+            <span className="yellow-side"> 2:30PM - 5:30PM - F2F </span> <br/><br/>
         </p>,
 
         /* Sunday ulit para sure */
