@@ -77,9 +77,9 @@ function Page1(){
         /*  Friday   */
         <p key={7}  className='class'>
             <span>WebDev w/ sir Batac</span><br/>
-            <span className="yellow-side"> 7:00AM - 9:00AM - F2F </span> <br/><br/>
+            <span className="yellow-side"> 7:00AM - 9:00AM - Online / Async </span> <br/><br/>
             <span>WebDev w/ sir Batac</span><br/>
-            <span className="yellow-side"> 9:00AM - 12:00NN - F2F @ Cisco Lab</span> <br/><br/>
+            <span className="yellow-side"> 9:00AM - 12:00NN - Online / Async</span> <br/><br/>
         </p>,
 
         /*  Saturday   */
