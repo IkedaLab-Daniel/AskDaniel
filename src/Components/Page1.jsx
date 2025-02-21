@@ -85,9 +85,9 @@ function Page1(){
         /*  Saturday   */
         <p key={9}  className='class'>
             <span>History</span><br/>
-            <span className="yellow-side"> 11:00AM - 2:00PM - F2F </span> <br/><br/>
+            <span className="yellow-side"> 11:00AM - 2:00PM - F2F @ MB103</span> <br/><br/>
             <span>Rizal</span><br/>
-            <span className="yellow-side"> 2:30PM - 5:30PM - F2F </span> <br/><br/>
+            <span className="yellow-side"> 2:30PM - 5:30PM - F2F @ MB205</span> <br/><br/>
         </p>,
 
         /* Sunday ulit para sure */
