@@ -3,6 +3,8 @@ import Tutorial from './Tutorial';
 import Weather from './Weather';
 import ClassTeams from './ClassTeams';
 import { transition } from '@chakra-ui/react';
+import { Toaster, toast } from 'react-hot-toast';
+
 /* Sorry, 1 component lang 'to kahit naka react. Di ko kasi expect na lalaki siya hihi */
 
 function Page1(){
@@ -77,7 +79,7 @@ function Page1(){
             <span>WebDev w/ sir Batac</span><br/>
             <span className="yellow-side"> 7:00AM - 9:00AM - Online </span> <br/><br/>
             <span>WebDev w/ sir Batac</span><br/>
-            <span className="yellow-side"> 9:00AM - 12:00NN - Online </span> <br/><br/>
+            <span className="yellow-side"> 9:00AM - 12:00NN - F2F @ CISCO LAB </span> <br/><br/>
         </p>,
 
         /*  Saturday   */
@@ -102,6 +104,16 @@ function Page1(){
                 Next face to face meeting, prepare for Module 2 <br/>
                 Next face to face meeting, 5 reporters (updates on IT) <br/>
                 Next face to face meeting, bring 1/8 index card with your name, course section, and 1x1 picture <br/><br/>
+                <span className='yellow-side'>March 3</span> 
+                <span className='breaker'></span> 
+                📌 Python<br/>
+                Teams - Assignment<br/>
+                📌 PE 4<br/>
+                Watch Volleyball <br/><br/>
+                <span className='yellow-side'>March 4</span> 
+                <span className='breaker'></span> 
+                📌 SOCSCIE103<br/>
+                Presentation <br/><br/>
                 </p>
 
     const toPay = <p key="2">
@@ -136,9 +148,6 @@ Thank you <br/> <br/>
     
     //     return () => clearTimeout(timer); // Clear timeout on component unmount
     // }, []);
-    
-
-
 
     const classToday = classes[dayIndex];
 
@@ -250,6 +259,14 @@ Thank you <br/> <br/>
           behavior: 'smooth' // for smooth scrolling
         });
       }
+
+      useEffect(() => {
+        setTimeout(()=>{
+            toast.success("Last Update: Feb 25, 2025", {
+                duration: 5000,
+            });
+        }, 500)
+      }, []);
       
 
     // const files = <div id='files'>
@@ -334,6 +351,7 @@ Thank you <br/> <br/>
         <div id="class-teams">
             <ClassTeams/>
         </div>
+        <Toaster />
         </>
     )
 }
