@@ -108,7 +108,7 @@ function Page1(){
                 📌 SOCSCIE103<br/>
                 Presentation <br/><br/>
                 📌 History<br/>
-                Seatwork 1 - Module 1 - MS Teams deadline March 1 <br/><br/>
+                Seatwork 1 - Module 1 - MS Teams<br/><br/>
                 <span className='yellow-side'>March 8 : Saturday</span> 
                 <span className='breaker'></span> 
                 📌 History<br/>
