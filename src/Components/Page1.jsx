@@ -97,23 +97,24 @@ function Page1(){
     ];
 
     const Tasks = <p key="1">
-                <span className='yellow-side'>March 1</span> 
-                <span className='breaker'></span> 
-                📌 History<br/>
-                Seatwork 1 - Module 1 - MS Teams deadline March 1 <br/>
-                Next face to face meeting, prepare for Module 2 <br/>
-                Next face to face meeting, 5 reporters (updates on IT) <br/>
-                Next face to face meeting, bring 1/8 index card with your name, course section, and 1x1 picture <br/><br/>
-                <span className='yellow-side'>March 3</span> 
+                <span className='yellow-side'>March 3 : Monday</span> 
                 <span className='breaker'></span> 
                 📌 Python<br/>
-                Teams - Assignment<br/>
+                Teams - Assignment<br/><br/>
                 📌 PE 4<br/>
                 Watch Volleyball <br/><br/>
-                <span className='yellow-side'>March 4</span> 
+                <span className='yellow-side'>March 4 : Tuesday</span> 
                 <span className='breaker'></span> 
                 📌 SOCSCIE103<br/>
                 Presentation <br/><br/>
+                📌 History<br/>
+                Seatwork 1 - Module 1 - MS Teams deadline March 1 <br/><br/>
+                <span className='yellow-side'>March 8 : Saturday</span> 
+                <span className='breaker'></span> 
+                📌 History<br/>
+                Prepare for Module 2 <br/>
+                5 reporters (updates on IT) <br/>
+                Bring 1/8 index card with your name, course section, and 1x1 picture <br/><br/>
                 </p>
 
     const toPay = <p key="2">
@@ -262,7 +263,7 @@ Thank you <br/> <br/>
 
       useEffect(() => {
         setTimeout(()=>{
-            toast.success("Last Update: Feb 25, 2025", {
+            toast.success("Last Update: Feb 28, 2025", {
                 duration: 5000,
             });
         }, 500)
