@@ -56,7 +56,7 @@ function Page1(){
             <span>GameDev</span><br/>
             <span className="yellow-side"> 11:00AM - 2:00PM -<span> F2F @ iLab</span></span> <br/><br/>
             <span>Contemporary</span><br/>
-            <span className="yellow-side"> 2:30PM - 5:30PM - F2F @ MB105</span> <br/><br/>
+            <span className="yellow-side"> 2:30PM - 5:30PM CANCELLED</span> <br/><br/>
         </p>,
 
         /*  Wednesday   */
@@ -262,7 +262,7 @@ Thank you <br/> <br/>
       }
 
       useEffect(() => {
-        const lastUpdate = "03/01/2025"; // MM/DD/YYYY
+        const lastUpdate = "03/04/2025"; // MM/DD/YYYY
         const parsedDate = parse(lastUpdate, "MM/dd/yyyy", new Date());
         const timeAgo = formatDistanceToNow(parsedDate, { addSuffix: true });
     
