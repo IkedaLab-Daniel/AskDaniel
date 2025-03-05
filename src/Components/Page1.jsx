@@ -97,18 +97,10 @@ function Page1(){
     ];
 
     const Tasks = <p key="1">
-                <span className='yellow-side'>March 3 : Monday</span> 
+                <span className='yellow-side'>March 6 : Thursday</span> 
                 <span className='breaker'></span> 
-                📌 Python<br/>
-                Teams - Assignment<br/><br/>
-                📌 PE 4<br/>
-                Watch Volleyball <br/><br/>
-                <span className='yellow-side'>March 4 : Tuesday</span> 
-                <span className='breaker'></span> 
-                📌 SOCSCIE103<br/>
-                Presentation <br/><br/>
-                📌 History<br/>
-                Seatwork 1 - Module 1 - MS Teams<br/><br/>
+                📌 GameDev<br/>
+                Game Design Assignment @ TEAMS <br/><br/>
                 <span className='yellow-side'>March 8 : Saturday</span> 
                 <span className='breaker'></span> 
                 📌 History<br/>
@@ -262,7 +254,7 @@ Thank you <br/> <br/>
       }
 
       useEffect(() => {
-        const lastUpdate = "03/04/2025"; // MM/DD/YYYY
+        const lastUpdate = "03/05/2025"; // MM/DD/YYYY
         const parsedDate = parse(lastUpdate, "MM/dd/yyyy", new Date());
         const timeAgo = formatDistanceToNow(parsedDate, { addSuffix: true });
     
