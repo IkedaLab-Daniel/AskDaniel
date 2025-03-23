@@ -33,6 +33,67 @@ function Page1(){
     const [dateStyle, setDateStyle]  = useState({
         height: "0",
     })
+    // const classes = [
+    //     /*  Sunday   */
+    //     <p key={3} className='class'>❤️ No Class</p>,
+
+    //     /*  Monday   */
+    //     <p key={4}  className='class'>
+    //         <span>Python blyat</span><br/>
+    //         <span className="yellow-side"> 7:00AM - 10:00AM - F2F @ Advanced Lab</span> <br/><br/>
+    //         <span>Python blyat</span><br/>
+    //         <span className="yellow-side"> 12:00NN - 2:00PM - F2F ? MB207</span> <br/><br/>
+    //         <span>PE4</span><br/>
+    //         <span className="yellow-side"> 2:00PM - 4:00PM - F2F @ Gymnasium</span> <br/><br/>
+    //         <span>Game Dev</span><br/>
+    //         <span className="yellow-side"> 4:00PM - 6:00PM - F2F @ MB104</span> <br/><br/>
+    //     </p>,
+
+    //     /*  Tuesday   */
+    //     <p key={5}  className='class'>
+    //         <span>NET1</span><br/>
+    //         <span className="yellow-side"> 7:00AM - 10:00AM - F2F @ CISCO Lab</span> <br/><br/>
+    //         <span>GameDev</span><br/>
+    //         <span className="yellow-side"> 11:00AM - 2:00PM -<span> F2F @ iLab</span></span> <br/><br/>
+    //         <span>Contemporary</span><br/>
+    //         <span className="yellow-side"> 2:30PM - 5:30PM - F2F @ MB105</span> <br/><br/>
+    //     </p>,
+
+    //     /*  Wednesday   */
+    //     <p key={6}  className='class'>
+    //         <span>ADET</span><br/>
+    //         <span className="yellow-side"> 7:00AM - 9:00AM - F2F @ MB205</span> <br/><br/>
+    //         <span>NET1</span><br/>
+    //         <span className="yellow-side"> 9:00AM - 11:00AM - F2F @ MB105</span> <br/><br/>
+    //         <span>ADET</span><br/>
+    //         <span className="yellow-side"> 12:00NN - 3:00PM - F2F @ Cisco Lab</span> <br/><br/>
+    //     </p>,
+
+    //     /*  Thursday   */
+    //     <p key={7}  className='class'>
+    //         ❤️ No Class 
+    //     </p>,
+
+    //     /*  Friday   */
+    //     <p key={7}  className='class'>
+    //         <span>WebDev w/ sir Batac</span><br/>
+    //         <span className="yellow-side"> 7:00AM - 9:00AM - F2F @ CISCO LAB </span> <br/><br/>
+    //         <span>WebDev w/ sir Batac</span><br/>
+    //         <span className="yellow-side"> 9:00AM - 12:00NN - F2F @ CISCO LAB </span> <br/><br/>
+    //     </p>,
+
+    //     /*  Saturday   */
+    //     <p key={9}  className='class'>
+    //         <span>History</span><br/>
+    //         <span className="yellow-side"> 11:00AM - 2:00PM - MB103</span> <br/><br/>
+    //         <span>Rizal</span><br/>
+    //         <span className="yellow-side"> 2:30PM - 5:30PM - MB205</span> <br/><br/>
+    //     </p>,
+
+    //     /* Sunday ulit para sure */
+    //     <p key={3} className='class'>❤️ No Class</p>,
+    // ];
+
     const classes = [
         /*  Sunday   */
         <p key={3} className='class'>❤️ No Class</p>,
@@ -42,11 +103,11 @@ function Page1(){
             <span>Python blyat</span><br/>
             <span className="yellow-side"> 7:00AM - 10:00AM - F2F @ Advanced Lab</span> <br/><br/>
             <span>Python blyat</span><br/>
-            <span className="yellow-side"> 12:00NN - 2:00PM - F2F ? MB207</span> <br/><br/>
+            <span className="yellow-side"> 12:00NN - 2:00PM - ? </span> <br/><br/>
             <span>PE4</span><br/>
-            <span className="yellow-side"> 2:00PM - 4:00PM - F2F @ Gymnasium</span> <br/><br/>
+            <span className="yellow-side"> 2:00PM - 4:00PM - Cancelled</span> <br/><br/>
             <span>Game Dev</span><br/>
-            <span className="yellow-side"> 4:00PM - 6:00PM - F2F @ MB104</span> <br/><br/>
+            <span className="yellow-side"> 4:00PM - 6:00PM - Online</span> <br/><br/>
         </p>,
 
         /*  Tuesday   */
@@ -56,15 +117,15 @@ function Page1(){
             <span>GameDev</span><br/>
             <span className="yellow-side"> 11:00AM - 2:00PM -<span> F2F @ iLab</span></span> <br/><br/>
             <span>Contemporary</span><br/>
-            <span className="yellow-side"> 2:30PM - 5:30PM - F2F @ MB105</span> <br/><br/>
+            <span className="yellow-side"> 2:30PM - 5:30PM - Online</span> <br/><br/>
         </p>,
 
         /*  Wednesday   */
         <p key={6}  className='class'>
             <span>ADET</span><br/>
-            <span className="yellow-side"> 7:00AM - 9:00AM - F2F @ MB205</span> <br/><br/>
+            <span className="yellow-side"> 7:00AM - 9:00AM - Online</span> <br/><br/>
             <span>NET1</span><br/>
-            <span className="yellow-side"> 9:00AM - 11:00AM - F2F @ MB105</span> <br/><br/>
+            <span className="yellow-side"> 9:00AM - 11:00AM - Online</span> <br/><br/>
             <span>ADET</span><br/>
             <span className="yellow-side"> 12:00NN - 3:00PM - F2F @ Cisco Lab</span> <br/><br/>
         </p>,
@@ -77,7 +138,7 @@ function Page1(){
         /*  Friday   */
         <p key={7}  className='class'>
             <span>WebDev w/ sir Batac</span><br/>
-            <span className="yellow-side"> 7:00AM - 9:00AM - F2F @ CISCO LAB </span> <br/><br/>
+            <span className="yellow-side"> 7:00AM - 9:00AM - Online </span> <br/><br/>
             <span>WebDev w/ sir Batac</span><br/>
             <span className="yellow-side"> 9:00AM - 12:00NN - F2F @ CISCO LAB </span> <br/><br/>
         </p>,
@@ -85,47 +146,25 @@ function Page1(){
         /*  Saturday   */
         <p key={9}  className='class'>
             <span>History</span><br/>
-            <span className="yellow-side"> 11:00AM - 2:00PM - MB103</span> <br/><br/>
+            <span className="yellow-side"> 11:00AM - 2:00PM - Module</span> <br/><br/>
             <span>Rizal</span><br/>
-            <span className="yellow-side"> 2:30PM - 5:30PM - MB205</span> <br/><br/>
+            <span className="yellow-side"> 2:30PM - 5:30PM - Online</span> <br/><br/>
         </p>,
 
         /* Sunday ulit para sure */
         <p key={3} className='class'>❤️ No Class</p>,
-
-
     ];
 
     const Tasks = <p key="1">
-                <span className='yellow-side'>March 17 : Monday</span> 
-                <span className='breaker'></span> 
-                📌 PE4<br/>
-                Volleyball Hand Signs <br/>
-                Bring 1 ball per group <br/><br/>
-
-                📌 GameDev<br/>
-                Report: Group 10, 7, 5, 1 <br/><br/>
-
-                <span className='yellow-side'>March 18 : Tuesday</span> 
-                <span className='breaker'></span> 
-                📌 Contimpolarily<br/>
-                Quiz: Introduction & Last OC discussion <br/>
-                Reporting <br/><br/>
-
-
-                <span className='yellow-side'>March 21 : Friday</span> 
-                <span className='breaker'></span> 
-                📌 History<br/>
-                Quiz Module 2 <br/><br/>
-
-                <span className='yellow-side'>March 22 : Saturday</span> 
+                {/* <span className='yellow-side'>March 22 : Saturday</span> 
                 <span className='breaker'></span> 
                 📌 History<br/>
                 Prepare for Module 3 <br/>
                 5 reporters (updates on IT) <br/><br/>
 
                 📌 Rizal<br/>
-                50-item Quiz <br/>
+                50-item Quiz <br/> */}
+                be happi
                 </p>
 
     const toPay = <p key="2">
@@ -273,7 +312,7 @@ Thank you <br/> <br/>
       }
 
       useEffect(() => {
-        const lastUpdate = "03/16/2025"; // MM/DD/YYYY
+        const lastUpdate = "03/23/2025"; // MM/DD/YYYY
         const parsedDate = parse(lastUpdate, "MM/dd/yyyy", new Date());
         const timeAgo = formatDistanceToNow(parsedDate, { addSuffix: true });
     
