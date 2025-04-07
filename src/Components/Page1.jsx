@@ -121,7 +121,7 @@ function Page1(){
             <span>GameDev</span><br/>
             <span className="yellow-side"> 10:00AM - 1:00PM -<span> F2F @ iLab</span></span> <br/><br/>
             <span>Contemporary</span><br/>
-            <span className="yellow-side"> 2:30PM - 5:30PM - Online (?)</span> <br/><br/>
+            <span className="yellow-side"> 2:30PM - 5:30PM - Async</span> <br/><br/>
         </p>,
 
         /*  Wednesday   */
