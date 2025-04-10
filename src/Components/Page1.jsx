@@ -144,9 +144,11 @@ function Page1(){
         /*  Friday   */
         <p key={7}  className='class'>
             <span>WebDev w/ sir Batac</span><br/>
-            <span className="yellow-side"> 7:00AM - 9:00AM - Online </span> <br/><br/>
+            <span className="yellow-side"> 7:00AM - 9:00AM - Online ? F2F</span> <br/><br/>
             <span>WebDev w/ sir Batac</span><br/>
             <span className="yellow-side"> 9:00AM - 12:00NN - F2F @ CISCO LAB </span> <br/><br/>
+            <span>Rizal</span><br/>
+            <span className="yellow-side"> 12:00NN - 3:00PM - F2F (exam)</span> <br/><br/>
         </p>,
 
         /*  Saturday   */
@@ -162,15 +164,15 @@ function Page1(){
     ];
 
     const Tasks = <p key="1">
-                {/* <span className='yellow-side'>March 22 : Saturday</span> 
+                <span className='yellow-side'>April  11: Friday</span> 
                 <span className='breaker'></span> 
                 📌 History<br/>
-                Prepare for Module 3 <br/>
-                5 reporters (updates on IT) <br/><br/>
+                Quiz 3 <span className='yellow-side'>11:59PM</span><br/><br/>
 
-                📌 Rizal<br/>
-                50-item Quiz <br/> */}
-                be happi
+                <span className='yellow-side'>April  21: Monday</span> 
+                <span className='breaker'></span> 
+                📌 Python<br/>
+                Iteration Online Activity <span className='yellow-side'>11:59AM</span> <br/><br/>
                 </p>
 
     const toPay = <p key="2">
@@ -318,7 +320,7 @@ Thank you <br/> <br/>
       }
 
       useEffect(() => {
-        const lastUpdate = "04/07/2025"; // MM/DD/YYYY
+        const lastUpdate = "4/10/2025"; // MM/DD/YYYY
         const parsedDate = parse(lastUpdate, "MM/dd/yyyy", new Date());
         const timeAgo = formatDistanceToNow(parsedDate, { addSuffix: true });
     
