@@ -202,11 +202,6 @@ function Page1(){
     // ];
 
     const Tasks = <p key="1">
-                <span className='yellow-side'>April  11: Friday</span> 
-                <span className='breaker'></span> 
-                📌 History<br/>
-                Quiz 3 <span className='yellow-side'>11:59PM</span><br/><br/>
-
                 <span className='yellow-side'>April  21: Monday</span> 
                 <span className='breaker'></span> 
                 📌 Python<br/>
