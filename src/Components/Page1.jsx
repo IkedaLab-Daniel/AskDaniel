@@ -175,15 +175,7 @@ function Page1(){
                     Wala pa :)
                     </p>
     const anouncement = <p>
-        <img src='https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/475231386_906747298335616_6148398410533596907_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH-f4Zxj9_EKwo2h8KbvTUYw_oeIG56YfzD-h4gbnph_DfmQ1Q94pjDnFs2h2k9IeFGb4J0vz3ZxlQFH-fXqqSQ&_nc_ohc=gnD1we_2a9MQ7kNvgF79VT4&_nc_oc=Adic5opLOmnk-Xes7zA3fVuDhTGc5plkOrv-GbK3-ymkRP3gsfUgg2_dWpMz820OShE&_nc_zt=23&_nc_ht=scontent.fcrk3-2.fna&_nc_gid=A1_B094_Z-7j2yYJcXASGOv&oh=00_AYDsUN78nnrrpIbs9RUXy79S2E3UNoksp8DHrpP5hLESDg&oe=67AE97C1'/><br/>
-Good Afternoon @everyone, reminder lang po na <br/> <br/>
-
-Starting tomorrow FEB 10 UNTIL FEB 14 is naka civilian clothing po tayo base sa color sa post ng MCC  <br/> <br/>
-
-Please don't forget your ID for identification para di kayo harangin ng guard  <br/> <br/>
-
-Thank you <br/> <br/>
-        - SSITE President <br/>
+       ₱100.00 contribution for the Rizal film.
     </p>
 
     // announcement delay
@@ -310,7 +302,7 @@ Thank you <br/> <br/>
       }
 
       useEffect(() => {
-        const lastUpdate = "4/20/2025"; // MM/DD/YYYY
+        const lastUpdate = "4/22/2025"; // MM/DD/YYYY
         const parsedDate = parse(lastUpdate, "MM/dd/yyyy", new Date());
         const timeAgo = formatDistanceToNow(parsedDate, { addSuffix: true });
     
