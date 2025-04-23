@@ -386,7 +386,7 @@ function Page1(){
 
 
             <div id="modal" style={toogleModal}>
-                <h2>👔 Wear Your Hearts 👔</h2>
+                <h2> </h2>
                 {anouncement}
                     <p className='close' onClick={toggleOffModal}>Close</p>
             </div>
