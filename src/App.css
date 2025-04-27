@@ -198,7 +198,7 @@ li:hover{
 #modal {
   color: rgb(59, 59, 59);
   max-width: 500px;
-  width: 80%;
+  width: 90%;
   background-color: rgba(238, 238, 238, 0.942);
   position: fixed;
   top: 50%;
@@ -217,9 +217,7 @@ li:hover{
 }
 
 #modal img{
-  width: 50%;
   border-radius: 14px;
-  margin-left: 25%;
 }
 
 #black-shade{

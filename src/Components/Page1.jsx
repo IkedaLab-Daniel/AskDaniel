@@ -5,7 +5,7 @@ import ClassTeams from './ClassTeams';
 import { transition } from '@chakra-ui/react';
 import { Toaster, toast } from 'react-hot-toast';
 import { formatDistanceToNow, parse } from "date-fns";
-
+import heatwave from "../assets/heatwave.jpg";
 /* Sorry, 1 component lang 'to kahit naka react. Di ko kasi expect na lalaki siya hihi */
 function Page1(){
 
@@ -16,7 +16,7 @@ function Page1(){
 
     const textToCopy = "09051315374";
     const [toogleModal, setToggleModal] = useState({
-        display: "none",
+        display: "block ",
     })
     const [displayToggle, setDisplayToggle]= useState({
         display: "none",
@@ -97,6 +97,68 @@ function Page1(){
     // ];
 
     // OC week
+    // const classes = [
+    //     /*  Sunday   */
+    //     <p key={3} className='class'>❤️ No Class</p>,
+
+    //     /*  Monday   */
+    //     <p key={4}  className='class'>
+    //         <span>Python blyat</span><br/>
+    //         <span className="yellow-side"> 7:00AM - 10:00AM - F2F @ Advanced Lab</span> <br/><br/>
+    //         <span>Python blyat</span><br/>
+    //         <span className="yellow-side"> 12:00NN - 2:00PM - ? </span> <br/><br/>
+    //         <span>PE4</span><br/>
+    //         <span className="yellow-side"> 2:00PM - 4:00PM - 2PM</span> <br/><br/>
+    //         {/* <span>Game Dev</span><br/>
+    //         <span className="yellow-side"> 4:00PM - 6:00PM - Online</span> <br/><br/> */}
+    //     </p>,
+
+    //     /*  Tuesday   */
+    //     <p key={5}  className='class'>
+    //         <span>NET1</span><br/>
+    //         <span className="yellow-side"> 7:00AM - 10:00AM - F2F @ CISCO Lab</span> <br/><br/>
+    //         <span>GameDev</span><br/>
+    //         <span className="yellow-side"> 10:00AM - 1:00PM -<span> F2F @ iLab</span></span> <br/><br/>
+    //         <span>Contemporary</span><br/>
+    //         <span className="yellow-side"> 2:30PM - 5:30PM - OC</span> <br/><br/>
+    //     </p>,
+
+    //     /*  Wednesday   */
+    //     <p key={6}  className='class'>
+    //         <span>ADET</span><br/>
+    //         <span className="yellow-side"> 7:00AM - 9:00AM - Online</span> <br/><br/>
+    //         <span>NET1</span><br/>
+    //         <span className="yellow-side"> 9:00AM - 11:00AM - Online</span> <br/><br/>
+    //         <span>ADET</span><br/>
+    //         <span className="yellow-side"> 12:00NN - 3:00PM - F2F @ Cisco Lab</span> <br/><br/>
+    //     </p>,
+
+    //     /*  Thursday   */
+    //     <p key={7}  className='class'>
+    //         No Class
+    //     </p>,
+
+    //     /*  Friday   */
+    //     <p key={7}  className='class'>
+    //         <span>WebDev w/ sir Batac</span><br/>
+    //         <span className="yellow-side"> 7:00AM - 9:00AM - Online</span> <br/><br/>
+    //         <span>WebDev w/ sir Batac</span><br/>
+    //         <span className="yellow-side"> 9:00AM - 12:00NN - F2F @ CISCO LAB </span> <br/><br/>
+    //     </p>,
+
+    //     /*  Saturday   */
+    //     <p key={9}  className='class'>
+    //         <span>History</span><br/>
+    //         <span className="yellow-side"> 11:00AM - 2:00PM - Module</span> <br/><br/>
+    //         <span>Rizal</span><br/>
+    //         <span className="yellow-side"> 2:30PM - 5:30PM - ?</span> <br/><br/>
+    //     </p>,
+
+    //     /* Sunday ulit para sure */
+    //     <p key={3} className='class'>❤️ No Class</p>,
+    // ];
+
+    // Heat Wave + F2F
     const classes = [
         /*  Sunday   */
         <p key={3} className='class'>❤️ No Class</p>,
@@ -106,9 +168,9 @@ function Page1(){
             <span>Python blyat</span><br/>
             <span className="yellow-side"> 7:00AM - 10:00AM - F2F @ Advanced Lab</span> <br/><br/>
             <span>Python blyat</span><br/>
-            <span className="yellow-side"> 12:00NN - 2:00PM - ? </span> <br/><br/>
+            <span className="yellow-side"> 12:00NN - 2:00PM - Online</span> <br/><br/>
             <span>PE4</span><br/>
-            <span className="yellow-side"> 2:00PM - 4:00PM - 2PM</span> <br/><br/>
+            <span className="yellow-side"> 2:00PM - 4:00PM - Online</span> <br/><br/>
             {/* <span>Game Dev</span><br/>
             <span className="yellow-side"> 4:00PM - 6:00PM - Online</span> <br/><br/> */}
         </p>,
@@ -120,7 +182,7 @@ function Page1(){
             <span>GameDev</span><br/>
             <span className="yellow-side"> 10:00AM - 1:00PM -<span> F2F @ iLab</span></span> <br/><br/>
             <span>Contemporary</span><br/>
-            <span className="yellow-side"> 2:30PM - 5:30PM - OC</span> <br/><br/>
+            <span className="yellow-side"> 4:00PM - 5:00PM - OC/F2F</span> <br/><br/>
         </p>,
 
         /*  Wednesday   */
@@ -143,15 +205,17 @@ function Page1(){
             <span>WebDev w/ sir Batac</span><br/>
             <span className="yellow-side"> 7:00AM - 9:00AM - Online</span> <br/><br/>
             <span>WebDev w/ sir Batac</span><br/>
-            <span className="yellow-side"> 9:00AM - 12:00NN - F2F @ CISCO LAB </span> <br/><br/>
+            <span className="yellow-side"> 9:00AM - 12:00NN - F2F @ CISCO LAB </span><br/>
+            <span className="yellow-side"> (12:00NN - 3:00NN - Sa sinend sa sched pero 9-12NN sinusundan ni sir) </span> <br/><br/>
+
         </p>,
 
         /*  Saturday   */
         <p key={9}  className='class'>
             <span>History</span><br/>
-            <span className="yellow-side"> 11:00AM - 2:00PM - Module</span> <br/><br/>
+            <span className="yellow-side"> 8:00AM - 9:00AM - F2F</span> <br/><br/>
             <span>Rizal</span><br/>
-            <span className="yellow-side"> 2:30PM - 5:30PM - ?</span> <br/><br/>
+            <span className="yellow-side"> 9:00AM - 10:00AM - F2F ?</span> <br/><br/>
         </p>,
 
         /* Sunday ulit para sure */
@@ -165,17 +229,16 @@ function Page1(){
                 Iteration Online Activity <span className='yellow-side'>11:59AM</span> <br/><br/>
                 </p>
 
-    const toPay = <p key="2">
-        {/* 📌 IBCE Student Activity Fee:<br/> ₱150 <span className='yellow-side' style={{color: "red",}}>Overdue!</span> <br/><br/> */}
-                    {/* 💵 Pay on: <br/>
-                    GCash - <span className="phone-num" onClick={copyToClipboard}>{textToCopy} </span><br/>
-                    <span className='yellow-side'>Click number to copy</span><br/>
-                    (J**R C***S)<br/>
-                    <br/> */}
-                    Wala pa :)
+    const toPay = <p key="2"> 
+                    {/* <span className='yellow-side' style={{color: "red",}}>Overdue!</span> */}
+                    📌 Rizal filming funds:<br/> ₱100 <br/><br/>
+                    📌 College Days:<br/> ₱30 <br/><br/>
                     </p>
+
     const anouncement = <p>
-       ₱100.00 contribution for the Rizal film.
+       <h2>Heat Wave Patch 4.27.25</h2>
+       <p>Adjusted Schedule</p>
+       <img src={heatwave} style={{width: '100%'}} />
     </p>
 
     // announcement delay
@@ -302,12 +365,12 @@ function Page1(){
       }
 
       useEffect(() => {
-        const lastUpdate = "4/22/2025"; // MM/DD/YYYY
+        const lastUpdate = "4/27/2025"; // MM/DD/YYYY
         const parsedDate = parse(lastUpdate, "MM/dd/yyyy", new Date());
         const timeAgo = formatDistanceToNow(parsedDate, { addSuffix: true });
     
         setTimeout(() => {
-          toast.success(`Last Update: ${timeAgo}`, {
+          toast.success(`Last Update: ${timeAgo} \n (Heat Wave)`, {
             duration: 5000,
           });
         }, 500);
