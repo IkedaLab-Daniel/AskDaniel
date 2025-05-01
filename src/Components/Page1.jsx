@@ -203,11 +203,9 @@ function Page1(){
         /*  Friday   */
         <p key={7}  className='class'>
             <span>WebDev w/ sir Batac</span><br/>
-            <span className="yellow-side"> 7:00AM - 9:00AM - Online</span> <br/><br/>
+            <span className="yellow-side"> 7:00AM - 9:00AM - F2F</span> <br/><br/>
             <span>WebDev w/ sir Batac</span><br/>
-            <span className="yellow-side"> 9:00AM - 12:00NN - F2F @ CISCO LAB </span><br/>
-            <span className="yellow-side"> (12:00NN - 3:00NN - Sa sinend sa sched pero 9-12NN sinusundan ni sir) </span> <br/><br/>
-
+            <span className="yellow-side"> 9:00AM - 12:00NN - ? </span><br/>
         </p>,
 
         /*  Saturday   */
@@ -365,7 +363,7 @@ function Page1(){
       }
 
       useEffect(() => {
-        const lastUpdate = "4/29/2025"; // MM/DD/YYYY
+        const lastUpdate = "4/30/2025"; // MM/DD/YYYY
         const parsedDate = parse(lastUpdate, "MM/dd/yyyy", new Date());
         const timeAgo = formatDistanceToNow(parsedDate, { addSuffix: true });
     
