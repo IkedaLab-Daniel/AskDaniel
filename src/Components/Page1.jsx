@@ -202,18 +202,19 @@ function Page1(){
 
         /*  Friday   */
         <p key={7}  className='class'>
-            <span>WebDev w/ sir Batac</span><br/>
+            {/* <span>WebDev w/ sir Batac</span><br/>
             <span className="yellow-side"> 7:00AM - 9:00AM - F2F</span> <br/><br/>
             <span>WebDev w/ sir Batac</span><br/>
-            <span className="yellow-side"> 9:00AM - 12:00NN - ? </span><br/>
+            <span className="yellow-side"> 9:00AM - 12:00NN - ? </span><br/> */}
+            <span>Suspended</span>
         </p>,
 
         /*  Saturday   */
         <p key={9}  className='class'>
             <span>History</span><br/>
-            <span className="yellow-side"> 8:00AM - 9:00AM - F2F</span> <br/><br/>
+            <span className="yellow-side"> 8:00AM - 9:00AM - F2F (waiting for confirmation)</span> <br/><br/>
             <span>Rizal</span><br/>
-            <span className="yellow-side"> 9:00AM - 10:00AM - F2F ?</span> <br/><br/>
+            <span className="yellow-side"> 9:00AM - 10:00AM - F2F (?)</span> <br/><br/>
         </p>,
 
         /* Sunday ulit para sure */
@@ -221,10 +222,10 @@ function Page1(){
     ];
 
     const Tasks = <p key="1">
-                <span className='yellow-side'>April  21: Monday</span> 
+                <span className='yellow-side'>May 20: Tuesday</span> 
                 <span className='breaker'></span> 
-                📌 Python<br/>
-                Iteration Online Activity <span className='yellow-side'>11:59AM</span> <br/><br/>
+                📌 Net1<br/>
+                ASYNCHRONOUS ACTIVITY FOR College Days Break <span className='yellow-side'>9:00AM</span> <br/><br/>
                 </p>
 
     const toPay = <p key="2"> 
@@ -363,7 +364,7 @@ function Page1(){
       }
 
       useEffect(() => {
-        const lastUpdate = "4/30/2025"; // MM/DD/YYYY
+        const lastUpdate = "5/2/2025"; // MM/DD/YYYY
         const parsedDate = parse(lastUpdate, "MM/dd/yyyy", new Date());
         const timeAgo = formatDistanceToNow(parsedDate, { addSuffix: true });
     
