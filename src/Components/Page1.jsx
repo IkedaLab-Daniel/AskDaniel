@@ -159,62 +159,106 @@ function Page1(){
     // ];
 
     // Heat Wave + F2F
+    // const classes = [
+    //     /*  Sunday   */
+    //     <p key={3} className='class'>❤️ No Class</p>,
+
+    //     /*  Monday   */
+    //     <p key={4}  className='class'>
+    //         <span>Python blyat</span><br/>
+    //         <span className="yellow-side"> 7:00AM - 10:00AM - F2F @ Advanced Lab</span> <br/><br/>
+    //         <span>Python blyat</span><br/>
+    //         <span className="yellow-side"> 12:00NN - 2:00PM - Online</span> <br/><br/>
+    //         <span>PE4</span><br/>
+    //         <span className="yellow-side"> 2:00PM - 4:00PM - Online</span> <br/><br/>
+    //         {/* <span>Game Dev</span><br/>
+    //         <span className="yellow-side"> 4:00PM - 6:00PM - Online</span> <br/><br/> */}
+    //     </p>,
+
+    //     /*  Tuesday   */
+    //     <p key={5}  className='class'>
+    //         <span>NET1</span><br/>
+    //         <span className="yellow-side"> 7:00AM - 10:00AM - F2F @ CISCO Lab</span> <br/><br/>
+    //         <span>GameDev</span><br/>
+    //         <span className="yellow-side"> 10:00AM - 1:00PM -<span> F2F @ iLab</span></span> <br/><br/>
+    //         <span>Contemporary</span><br/>
+    //         <span className="yellow-side"> 4:00PM - 5:00PM - OC/F2F</span> <br/><br/>
+    //     </p>,
+
+    //     /*  Wednesday   */
+    //     <p key={6}  className='class'>
+    //         <span>ADET</span><br/>
+    //         <span className="yellow-side"> 7:00AM - 10:00AM - F2F</span> <br/><br/>
+    //         <span>NET1</span><br/>
+    //         <span className="yellow-side"> 9:00AM - 11:00NN - Online</span> <br/><br/>
+    //         <span>ADET</span><br/>
+    //         <span className="yellow-side"> 10:00AM - 12:00NN - Online</span> <br/><br/>
+    //     </p>,
+
+    //     /*  Thursday   */
+    //     <p key={7}  className='class'>
+    //         No Class
+    //     </p>,
+
+    //     /*  Friday   */
+    //     <p key={7}  className='class'>
+    //         {/* <span>WebDev w/ sir Batac</span><br/>
+    //         <span className="yellow-side"> 7:00AM - 9:00AM - F2F</span> <br/><br/>
+    //         <span>WebDev w/ sir Batac</span><br/>
+    //         <span className="yellow-side"> 9:00AM - 12:00NN - ? </span><br/> */}
+    //         <span>Suspended</span>
+    //     </p>,
+
+    //     /*  Saturday   */
+    //     <p key={9}  className='class'>
+    //         <span>History</span><br/>
+    //         <span className="yellow-side"> 8:00AM - 9:00AM - F2F (waiting for confirmation)</span> <br/><br/>
+    //         <span>Rizal</span><br/>
+    //         <span className="yellow-side"> 9:00AM - 10:00AM - F2F (?)</span> <br/><br/>
+    //     </p>,
+
+    //     /* Sunday ulit para sure */
+    //     <p key={3} className='class'>❤️ No Class</p>,
+    // ];
+
+        // CDAYS
     const classes = [
         /*  Sunday   */
         <p key={3} className='class'>❤️ No Class</p>,
 
         /*  Monday   */
         <p key={4}  className='class'>
-            <span>Python blyat</span><br/>
-            <span className="yellow-side"> 7:00AM - 10:00AM - F2F @ Advanced Lab</span> <br/><br/>
-            <span>Python blyat</span><br/>
-            <span className="yellow-side"> 12:00NN - 2:00PM - Online</span> <br/><br/>
-            <span>PE4</span><br/>
-            <span className="yellow-side"> 2:00PM - 4:00PM - Online</span> <br/><br/>
-            {/* <span>Game Dev</span><br/>
-            <span className="yellow-side"> 4:00PM - 6:00PM - Online</span> <br/><br/> */}
+            <span>College Days</span><br/>
         </p>,
 
         /*  Tuesday   */
         <p key={5}  className='class'>
-            <span>NET1</span><br/>
-            <span className="yellow-side"> 7:00AM - 10:00AM - F2F @ CISCO Lab</span> <br/><br/>
-            <span>GameDev</span><br/>
-            <span className="yellow-side"> 10:00AM - 1:00PM -<span> F2F @ iLab</span></span> <br/><br/>
-            <span>Contemporary</span><br/>
-            <span className="yellow-side"> 4:00PM - 5:00PM - OC/F2F</span> <br/><br/>
+            <span>College Days</span><br/>
+
         </p>,
 
         /*  Wednesday   */
         <p key={6}  className='class'>
-            <span>ADET</span><br/>
-            <span className="yellow-side"> 7:00AM - 10:00AM - F2F</span> <br/><br/>
-            <span>NET1</span><br/>
-            <span className="yellow-side"> 9:00AM - 11:00NN - Online</span> <br/><br/>
-            <span>ADET</span><br/>
-            <span className="yellow-side"> 10:00AM - 12:00NN - Online</span> <br/><br/>
+            <span>College Days</span><br/>
+
         </p>,
 
         /*  Thursday   */
         <p key={7}  className='class'>
-            No Class
+            <span>College Days</span><br/>
+
         </p>,
 
         /*  Friday   */
         <p key={7}  className='class'>
-            {/* <span>WebDev w/ sir Batac</span><br/>
-            <span className="yellow-side"> 7:00AM - 9:00AM - F2F</span> <br/><br/>
-            <span>WebDev w/ sir Batac</span><br/>
-            <span className="yellow-side"> 9:00AM - 12:00NN - ? </span><br/> */}
-            <span>Suspended</span>
+            <span>College Days</span><br/>
+
         </p>,
 
         /*  Saturday   */
         <p key={9}  className='class'>
-            <span>History</span><br/>
-            <span className="yellow-side"> 8:00AM - 9:00AM - F2F (waiting for confirmation)</span> <br/><br/>
-            <span>Rizal</span><br/>
-            <span className="yellow-side"> 9:00AM - 10:00AM - F2F (?)</span> <br/><br/>
+            <span>College Days</span><br/>
+
         </p>,
 
         /* Sunday ulit para sure */
