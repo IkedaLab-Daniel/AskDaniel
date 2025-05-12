@@ -55,14 +55,13 @@ function Page1(){
         /*  Tuesday   */
         <p key={5}  className='class'>
             <span>NET1</span><br/>
-            <span className="yellow-side"> 7:00AM - 10:00AM </span> <span className='async'>Cancelled*</span> <br/><br/>
+            <span className="yellow-side"> 7:00AM - 10:00AM </span> <span className='async'>* async</span> <br/><br/>
             <span>GameDev</span><br/>
-            <span className="yellow-side"> 11:00AM - 2:00PM <span></span></span><span className='async'>Waiting*</span> <br/><br/>
+            <span className="yellow-side"> 11:00AM - 2:00PM <span></span></span><br/><br/>
             <span>Contemporary</span><br/>
             <span className="yellow-side"> 2:30PM - 5:30PM - F2F @ MB105</span> <br/><br/>
 
-            <span className="async"> * "alam ko cancelled class nila (sir Ernie, Ma'am Dessa)", Markedrei 2025</span> <br/>
-            <span className="async"> * "waiting for announcement pako", Ma'am Dessa to Markedrei via chat, 2025</span> <br/><br/>
+            <span className="async"> * "supposedly May 20 pa pasok, pero na move pala capstone for Tuesday. As of now, wala pa update if May 20 parin pasok"</span> <br/>
 
 
         </p>,
