@@ -106,9 +106,9 @@ function Page1(){
         /*  Monday   */
         <p key={4}  className='class'>
             <span>Python blyat</span><br/>
-            <span className="yellow-side"> 7:00AM - 10:00AM - F2F @ Advanced Lab</span> <br/><br/>
+            <span className="yellow-side"> 7:00AM - 10:00AM - Cancalled</span> <br/><br/>
             <span>Python blyat</span><br/>
-            <span className="yellow-side"> 12:00NN - 2:00PM - ? </span> <br/><br/>
+            <span className="yellow-side"> 12:00NN - 2:00PM - Cancalled </span> <br/><br/>
             <span>PE4</span><br/>
             <span className="yellow-side"> 2:00PM - 4:00PM - OC - 2PM</span> <br/><br/>
             {/* <span>Game Dev</span><br/>
