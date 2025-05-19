@@ -16,7 +16,7 @@ function Page1(){
 
     const textToCopy = "09051315374";
     const [toogleModal, setToggleModal] = useState({
-        display: "block ",
+        display: "none ",
     })
     const [displayToggle, setDisplayToggle]= useState({
         display: "none",
@@ -120,7 +120,7 @@ function Page1(){
             <span>NET1</span><br/>
             <span className="yellow-side"> 7:00AM - 10:00AM - Cancelled</span> <br/><br/>
             <span>GameDev</span><br/>
-            <span className="yellow-side"> 10:00AM - 1:00PM -<span> ? </span></span> <br/><br/>
+            <span className="yellow-side"> 10:00AM - 1:00PM -<span> Cancelled </span></span> <br/><br/>
             <span>Contemporary</span><br/>
             <span className="yellow-side"> 2:30PM - 5:30PM - OC</span> <br/><br/>
         </p>,
@@ -220,6 +220,13 @@ function Page1(){
                 <span className='breaker'></span> 
                 📌 Net1<br/>
                 ASYNCHRONOUS ACTIVITY FOR College Days Break <span className='yellow-side'>9:00AM</span> <br/><br/>
+
+                <span className='yellow-side'>May 24: Saturday</span> 
+                <span className='breaker'></span> 
+                📌 Net1<br/>
+                11.5.5 Packet Tracer - Subnet an IPv4 Network <span className='yellow-side'>11:59PM</span> <br/>
+                11.7.5 Packet Tracer - Subnetting Scenario <span className='yellow-side'>11:59PM</span> <br/>
+                11.9.3 Packet Tracer - VLSM Design and Implementation Practice <span className='yellow-side'>11:59PM</span> <br/><br/>
                 </p>
 
     const toPay = <p key="2"> 
@@ -357,7 +364,7 @@ function Page1(){
       }
 
       useEffect(() => {
-        const lastUpdate = "5/17/2025"; // MM/DD/YYYY
+        const lastUpdate = "5/19/2025"; // MM/DD/YYYY
         const parsedDate = parse(lastUpdate, "MM/dd/yyyy", new Date());
         const timeAgo = formatDistanceToNow(parsedDate, { addSuffix: true });
     
@@ -410,7 +417,7 @@ function Page1(){
             <div id="buttons-container">
                 <p onClick={showAnswer1}>🕔 Ano oras pasok ngayon?</p>
                 <p onClick={showAnswer4}>🕔 Ano oras pasok bukas?</p>
-                <p onClick={showAnswer2}>📝 Ano mga ginagawa?</p>
+                <p onClick={showAnswer2}>📝 Assignments (4)</p>
                 <p onClick={showAnswer3}>💸 Ano mga binabayaran?</p>
                 {/* <p onClick={showAnswerFiles}>📁 Files</p> */}
                 <p onClick={showAnswerAbout}> 💡 About</p>
