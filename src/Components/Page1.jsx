@@ -41,15 +41,14 @@ function Page1(){
 
         /*  Monday   */
         <p key={4}  className='class'>
-            {/* <span>Python blyat</span><br/>
+            <span>Python</span><br/>
             <span className="yellow-side"> 7:00AM - 10:00AM - F2F @ Advanced Lab</span> <br/><br/>
-            <span>Python blyat</span><br/>
+            <span>Python</span><br/>
             <span className="yellow-side"> 12:00NN - 2:00PM - F2F ? MB207</span> <br/><br/>
             <span>PE4</span><br/>
             <span className="yellow-side"> 2:00PM - 4:00PM - F2F @ Gymnasium</span> <br/><br/>
             <span>Game Dev</span><br/>
-            <span className="yellow-side"> 4:00PM - 6:00PM - F2F @ MB104</span> <br/><br/> */}
-            No Class
+            <span className="yellow-side"> 4:00PM - 6:00PM - F2F ? MB104</span> <br/><br/>
         </p>,
 
         /*  Tuesday   */
@@ -216,17 +215,10 @@ function Page1(){
     // ];
 
     const Tasks = <p key="1">
-                <span className='yellow-side'>May 20: Tuesday</span> 
+                <span className='yellow-side'>May 30: Friday</span> 
                 <span className='breaker'></span> 
-                📌 Net1<br/>
-                ASYNCHRONOUS ACTIVITY FOR College Days Break <span className='yellow-side'>9:00AM</span> <br/><br/>
-
-                <span className='yellow-side'>May 24: Saturday</span> 
-                <span className='breaker'></span> 
-                📌 Net1<br/>
-                11.5.5 Packet Tracer - Subnet an IPv4 Network <span className='yellow-side'>11:59PM</span> <br/>
-                11.7.5 Packet Tracer - Subnetting Scenario <span className='yellow-side'>11:59PM</span> <br/>
-                11.9.3 Packet Tracer - VLSM Design and Implementation Practice <span className='yellow-side'>11:59PM</span> <br/><br/>
+                📌 SocSci102<br/>
+                Module 4 Quiz <span className='yellow-side'>11:59PM</span> <br/><br/>
                 </p>
 
     const toPay = <p key="2"> 
@@ -417,7 +409,7 @@ function Page1(){
             <div id="buttons-container">
                 <p onClick={showAnswer1}>🕔 Ano oras pasok ngayon?</p>
                 <p onClick={showAnswer4}>🕔 Ano oras pasok bukas?</p>
-                <p onClick={showAnswer2}>📝 Assignments (4)</p>
+                <p onClick={showAnswer2}>📝 Assignments</p>
                 <p onClick={showAnswer3}>💸 Ano mga binabayaran?</p>
                 {/* <p onClick={showAnswerFiles}>📁 Files</p> */}
                 <p onClick={showAnswerAbout}> 💡 About</p>
