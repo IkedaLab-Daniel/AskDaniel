@@ -219,6 +219,11 @@ function Page1(){
                 <span className='breaker'></span> 
                 📌 SocSci102<br/>
                 Module 4 Quiz <span className='yellow-side'>11:59PM</span> <br/><br/>
+
+                <span className='yellow-side'>May 31: Saturday</span> 
+                <span className='breaker'></span> 
+                📌 NET1<br/>
+                Configure IPv6 Network <span className='yellow-side'>11:59PM</span> <br/><br/>
                 </p>
 
     const toPay = <p key="2"> 
@@ -356,7 +361,7 @@ function Page1(){
       }
 
       useEffect(() => {
-        const lastUpdate = "5/24/2025"; // MM/DD/YYYY
+        const lastUpdate = "5/29/2025"; // MM/DD/YYYY
         const parsedDate = parse(lastUpdate, "MM/dd/yyyy", new Date());
         const timeAgo = formatDistanceToNow(parsedDate, { addSuffix: true });
     
@@ -409,7 +414,7 @@ function Page1(){
             <div id="buttons-container">
                 <p onClick={showAnswer1}>🕔 Ano oras pasok ngayon?</p>
                 <p onClick={showAnswer4}>🕔 Ano oras pasok bukas?</p>
-                <p onClick={showAnswer2}>📝 Assignments</p>
+                <p onClick={showAnswer2}>📝 Assignments (2)</p>
                 <p onClick={showAnswer3}>💸 Ano mga binabayaran?</p>
                 {/* <p onClick={showAnswerFiles}>📁 Files</p> */}
                 <p onClick={showAnswerAbout}> 💡 About</p>
