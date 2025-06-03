@@ -215,7 +215,7 @@ function Page1(){
     // ];
 
     const Tasks = <p key="1">
-                <span className='yellow-side'>June 6: Friday</span> 
+                <span className='yellow-side'>June 9: Monday</span> 
                 <span className='breaker'></span> 
                 📌 PE<br/>
                 Folk Dance <span className='yellow-side'></span> <br/><br/>
@@ -224,7 +224,6 @@ function Page1(){
     const toPay = <p key="2"> 
                     {/* <span className='yellow-side' style={{color: "red",}}>Overdue!</span> */}
                     📌 Rizal filming funds:<br/> ₱100 <br/><br/>
-                    📌 College Days:<br/> ₱30 <br/><br/>
                     </p>
 
     const anouncement = <p>
