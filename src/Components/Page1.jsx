@@ -215,6 +215,11 @@ function Page1(){
     // ];
 
     const Tasks = <p key="1">
+                <span className='yellow-side'>June 7: Saturday</span> 
+                <span className='breaker'></span> 
+                📌 NET1<br/>
+                16.5.1 Packet Tracer - Secure Network Devices (Take home PKA) <span className='yellow-side'>11:59PM</span> <br/><br/>
+
                 <span className='yellow-side'>June 9: Monday</span> 
                 <span className='breaker'></span> 
                 📌 PE<br/>
@@ -408,7 +413,7 @@ function Page1(){
             <div id="buttons-container">
                 <p onClick={showAnswer1}>🕔 Ano oras pasok ngayon?</p>
                 <p onClick={showAnswer4}>🕔 Ano oras pasok bukas?</p>
-                <p onClick={showAnswer2}>📝 Assignments (1)</p>
+                <p onClick={showAnswer2}>📝 Assignments (2)</p>
                 <p onClick={showAnswer3}>💸 Ano mga binabayaran?</p>
                 {/* <p onClick={showAnswerFiles}>📁 Files</p> */}
                 <p onClick={showAnswerAbout}> 💡 About</p>
