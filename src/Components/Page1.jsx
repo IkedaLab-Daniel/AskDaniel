@@ -220,6 +220,9 @@ function Page1(){
                 📌 NET1<br/>
                 16.5.1 Packet Tracer - Secure Network Devices (Take home PKA) <span className='yellow-side'>11:59PM</span> <br/><br/>
 
+                📌 SocSci102<br/>
+                Module 5 - Seatwork <span className='yellow-side'>11:59PM</span> <br/><br/>
+
                 <span className='yellow-side'>June 9: Monday</span> 
                 <span className='breaker'></span> 
                 📌 PE<br/>
@@ -360,7 +363,7 @@ function Page1(){
       }
 
       useEffect(() => {
-        const lastUpdate = "6/01/2025"; // MM/DD/YYYY
+        const lastUpdate = "6/04/2025"; // MM/DD/YYYY
         const parsedDate = parse(lastUpdate, "MM/dd/yyyy", new Date());
         const timeAgo = formatDistanceToNow(parsedDate, { addSuffix: true });
     
