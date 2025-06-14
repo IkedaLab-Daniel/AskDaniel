@@ -3,14 +3,13 @@ function Down(){
     return(
         <div id="dowm">
             <div className="down-modal">
-                <h2>Unavailable</h2>
+                <h2>GG</h2>
                 <div className="img-container">
-                    <img src="https://media.tenor.com/ntMIma-pGaEAAAAe/sad-cat-sad.png" alt="" />
+                    <img src="https://www.icegif.com/wp-content/uploads/2023/06/icegif-948.gif" alt="" />
                 </div>
-                <p>Di ko na rin alam nangyayari sa mondo guys. Review kayo, goodluck guys!!</p>
-                <p>If you have class related question, kindly ask Markedrei (Class Mayor)</p>
-                <a href="https://www.facebook.com/markedrei.22">
-                    <p className="marki-btn">Ask Markdrei</p>
+                <p>See you next sem guys...</p>
+                <a href="https://www.icegif.com/wp-content/uploads/2023/06/icegif-948.gif">
+                    <p className="marki-btn">yey</p>
                 </a>
             </div>
         </div>

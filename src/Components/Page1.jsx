@@ -2,11 +2,11 @@ import React, {useEffect, useState} from 'react'
 import Tutorial from './Tutorial';
 import Weather from './Weather';
 import ClassTeams from './ClassTeams';
-import { transition } from '@chakra-ui/react';
+import Down from './Down'
 import { Toaster, toast } from 'react-hot-toast';
 import { formatDistanceToNow, parse } from "date-fns";
-import heatwave from "../assets/sched-2.png";
 /* Sorry, 1 component lang 'to kahit naka react. Di ko kasi expect na lalaki siya hihi */
+
 function Page1(){
 
     const today = new Date();
@@ -441,6 +441,7 @@ function Page1(){
         <div id="class-teams">
             <ClassTeams/>
         </div>
+        <Down />
         <Toaster />
         </>
     )
